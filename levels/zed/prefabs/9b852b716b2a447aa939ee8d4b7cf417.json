@@ -1,0 +1,55 @@
+{
+  "entities": [
+    {
+      "name": "Zed",
+      "components": [
+        {
+          "type": "Animation",
+          "properties": {
+            "animations": [
+              "0ece94c6e8fdfb940a2511be25e79097",
+              "81977041bd94cda4a9f1edfeb33eb77e",
+              "e1f53b5d3a2b90e4a9222c8cc6d643a7",
+              "d4dbd004f64283f4bac4a186122fecc3",
+              "90f3417103106094183c699fc3d84ca2",
+              "3ad16e35ada93f44eb2e2863a3550ef7",
+              "5af62fbaa5bc1bb45a69904baf5e21ee",
+              "45a3ba676be246646abe68c945c5721c",
+              "ed47c2a40e775ae448f0c1cd840e6d81",
+              "8cd4b6de20a75bd48a2fcce7cdd517f3",
+              "ee03e059f1dbb0040b84fb09332e05d8",
+              "f1d16cc9a021a5f43a12cd50b4532273",
+              "8e69ec09ec6bb1c4183abd9529c98450",
+              "f11bb80005afaef4f959b421e25e3b01",
+              "66b6cf5d72265844d8c9fff9d8bb13cb",
+              "83a47c2b94ea18b4fbfb988665e9ad95",
+              "17fc20b7fc060ef4caae0a2b3c041780",
+              "598d511aa27c82c418470fa288f8993d",
+              "d4492d371b3a9924781184be3eeff89e",
+              "fb2508480244942b0adc7d6281c9b54a",
+              "e2e4103a11b614a158d04b86d0fc16e7"
+            ],
+            "joints": "joints@cc6b438d631553f468aac60d3bd4d450"
+          }
+        }
+      ],
+      "children": [
+        1
+      ]
+    },
+    {
+      "name": "transformZed",
+      "components": [
+        {
+          "type": "SkinningModel",
+          "properties": {
+            "mesh": "m0@cc6b438d631553f468aac60d3bd4d450",
+            "materials": [
+              "53f315582dad4f34d832c54475ef49ff"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
