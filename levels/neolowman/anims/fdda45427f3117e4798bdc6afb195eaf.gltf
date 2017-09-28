@@ -1,0 +1,578 @@
+{
+  "asset": {
+    "generator": "u3d-exporter",
+    "version": "1.0.0"
+  },
+  "accessors": [
+    {
+      "name": "time0@New Animation",
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 1,
+      "type": "SCALAR"
+    },
+    {
+      "name": "times@New Animation",
+      "bufferView": 0,
+      "byteOffset": 4,
+      "componentType": 5126,
+      "count": 71,
+      "type": "SCALAR"
+    },
+    {
+      "name": "Neo (1)_T@New Animation",
+      "bufferView": 0,
+      "byteOffset": 288,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Neo (1)_R@New Animation",
+      "bufferView": 0,
+      "byteOffset": 300,
+      "componentType": 5126,
+      "count": 71,
+      "type": "VEC4"
+    },
+    {
+      "name": "Neo_Reference_T@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1436,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Neo_Hips_T@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1448,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Neo_Hips_R@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1460,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC4"
+    },
+    {
+      "name": "Neo_LeftUpLeg_T@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1476,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Neo_LeftUpLeg_R@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1488,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC4"
+    },
+    {
+      "name": "Neo_LeftLeg_T@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1504,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Neo_LeftFoot_T@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1516,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Neo_LeftFoot_R@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1528,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC4"
+    },
+    {
+      "name": "Neo_LeftToeBase_T@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1544,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Neo_RightUpLeg_T@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1556,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Neo_RightUpLeg_R@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1568,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC4"
+    },
+    {
+      "name": "Neo_RightLeg_T@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1584,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Neo_RightFoot_T@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1596,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Neo_RightFoot_R@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1608,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC4"
+    },
+    {
+      "name": "Neo_RightToeBase_T@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1624,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Neo_Spine_T@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1636,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Neo_Spine_R@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1648,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC4"
+    },
+    {
+      "name": "Neo_Spine1_T@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1664,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Neo_Spine1_R@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1676,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC4"
+    },
+    {
+      "name": "Neo_Spine2_T@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1692,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Neo_Spine2_R@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1704,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC4"
+    },
+    {
+      "name": "Neo_LeftShoulder_T@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1720,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Neo_LeftShoulder_R@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1732,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC4"
+    },
+    {
+      "name": "Neo_LeftArm_T@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1748,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Neo_LeftArm_R@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1760,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC4"
+    },
+    {
+      "name": "Neo_LeftForeArm_T@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1776,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Neo_LeftHand_T@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1788,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Neo_Neck_T@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1800,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Neo_Neck_R@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1812,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC4"
+    },
+    {
+      "name": "Neo_Head_T@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1828,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Neo_RightShoulder_T@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1840,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Neo_RightShoulder_R@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1852,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC4"
+    },
+    {
+      "name": "Neo_RightArm_T@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1868,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Neo_RightArm_R@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1880,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC4"
+    },
+    {
+      "name": "Neo_RightForeArm_T@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1896,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Neo_RightHand_T@New Animation",
+      "bufferView": 0,
+      "byteOffset": 1908,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    }
+  ],
+  "animations": [
+    {
+      "name": "New Animation",
+      "channels": [
+        {
+          "input": 0,
+          "output": 2,
+          "node": 0,
+          "path": "translation"
+        },
+        {
+          "input": 1,
+          "output": 3,
+          "node": 0,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 4,
+          "node": 1,
+          "path": "translation"
+        },
+        {
+          "input": 0,
+          "output": 5,
+          "node": 2,
+          "path": "translation"
+        },
+        {
+          "input": 0,
+          "output": 6,
+          "node": 2,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 7,
+          "node": 3,
+          "path": "translation"
+        },
+        {
+          "input": 0,
+          "output": 8,
+          "node": 3,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 9,
+          "node": 4,
+          "path": "translation"
+        },
+        {
+          "input": 0,
+          "output": 10,
+          "node": 5,
+          "path": "translation"
+        },
+        {
+          "input": 0,
+          "output": 11,
+          "node": 5,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 12,
+          "node": 6,
+          "path": "translation"
+        },
+        {
+          "input": 0,
+          "output": 13,
+          "node": 7,
+          "path": "translation"
+        },
+        {
+          "input": 0,
+          "output": 14,
+          "node": 7,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 15,
+          "node": 8,
+          "path": "translation"
+        },
+        {
+          "input": 0,
+          "output": 16,
+          "node": 9,
+          "path": "translation"
+        },
+        {
+          "input": 0,
+          "output": 17,
+          "node": 9,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 18,
+          "node": 10,
+          "path": "translation"
+        },
+        {
+          "input": 0,
+          "output": 19,
+          "node": 11,
+          "path": "translation"
+        },
+        {
+          "input": 0,
+          "output": 20,
+          "node": 11,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 21,
+          "node": 12,
+          "path": "translation"
+        },
+        {
+          "input": 0,
+          "output": 22,
+          "node": 12,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 23,
+          "node": 13,
+          "path": "translation"
+        },
+        {
+          "input": 0,
+          "output": 24,
+          "node": 13,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 25,
+          "node": 14,
+          "path": "translation"
+        },
+        {
+          "input": 0,
+          "output": 26,
+          "node": 14,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 27,
+          "node": 15,
+          "path": "translation"
+        },
+        {
+          "input": 0,
+          "output": 28,
+          "node": 15,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 29,
+          "node": 16,
+          "path": "translation"
+        },
+        {
+          "input": 0,
+          "output": 30,
+          "node": 17,
+          "path": "translation"
+        },
+        {
+          "input": 0,
+          "output": 31,
+          "node": 18,
+          "path": "translation"
+        },
+        {
+          "input": 0,
+          "output": 32,
+          "node": 18,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 33,
+          "node": 19,
+          "path": "translation"
+        },
+        {
+          "input": 0,
+          "output": 34,
+          "node": 20,
+          "path": "translation"
+        },
+        {
+          "input": 0,
+          "output": 35,
+          "node": 20,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 36,
+          "node": 21,
+          "path": "translation"
+        },
+        {
+          "input": 0,
+          "output": 37,
+          "node": 21,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 38,
+          "node": 22,
+          "path": "translation"
+        },
+        {
+          "input": 0,
+          "output": 39,
+          "node": 23,
+          "path": "translation"
+        }
+      ]
+    }
+  ],
+  "buffers": [
+    {
+      "name": "Neo (1)",
+      "uri": "fdda45427f3117e4798bdc6afb195eaf.bin",
+      "byteLength": 1920
+    }
+  ],
+  "bufferViews": [
+    {
+      "name": "New Animation",
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 1920
+    }
+  ]
+}

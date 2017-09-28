@@ -1,0 +1,10 @@
+{
+  "type": "matcap",
+  "properties": {
+    "mainTex": "025c5f731ab760c4a97f77dd2ebce0d3",
+    "matcapTex": "9af1e7cd5bae7dc429db5b5d1102b171",
+    "mixRate": [
+      0.5
+    ]
+  }
+}
