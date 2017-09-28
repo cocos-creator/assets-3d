@@ -1,0 +1,46 @@
+{
+  "entities": [
+    {
+      "name": "Neo (1)",
+      "translation": [
+        -0.133054,
+        1.49590909,
+        -9.704794
+      ],
+      "rotation": [
+        -0.00386945275,
+        -0.9819262,
+        -0.05883616,
+        0.17984508
+      ],
+      "components": [
+        {
+          "type": "Animation",
+          "properties": {
+            "animations": [
+              "fdda45427f3117e4798bdc6afb195eaf"
+            ],
+            "joints": "joints@6d44fefd267c24346bda3663edd0b081"
+          }
+        }
+      ],
+      "children": [
+        1
+      ]
+    },
+    {
+      "name": "Body",
+      "components": [
+        {
+          "type": "SkinningModel",
+          "properties": {
+            "mesh": "m0@6d44fefd267c24346bda3663edd0b081",
+            "materials": [
+              "05b748076063608449767dd5fc7243fc"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

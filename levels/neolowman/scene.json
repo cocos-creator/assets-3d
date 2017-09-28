@@ -1,0 +1,70 @@
+{
+  "children": [
+    0,
+    1,
+    2
+  ],
+  "entities": [
+    {
+      "name": "Main Camera",
+      "translation": [
+        0.0,
+        1.0,
+        10.0
+      ],
+      "components": [
+        {
+          "type": "Camera",
+          "properties": {
+            "backgroundColor": [
+              0.192156866,
+              0.3019608,
+              0.4745098
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Neo (1)",
+      "prefab": "0a47475bd6b2b9a408f9f918a96e7eb6",
+      "translation": [
+        0.0460164249,
+        1.49287653,
+        -9.595631
+      ],
+      "rotation": [
+        0.07330587,
+        -0.996818,
+        0.00361999241,
+        -0.0310973451
+      ]
+    },
+    {
+      "name": "Directional Light",
+      "translation": [
+        0.0,
+        3.0,
+        0.0
+      ],
+      "rotation": [
+        -0.408217877,
+        0.234569684,
+        0.109381631,
+        0.8754261
+      ],
+      "components": [
+        {
+          "type": "Light",
+          "properties": {
+            "color": [
+              1.0,
+              0.956862748,
+              0.8392157
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
