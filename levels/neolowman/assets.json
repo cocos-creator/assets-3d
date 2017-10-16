@@ -1,0 +1,42 @@
+{
+  "fdda45427f3117e4798bdc6afb195eaf": {
+    "type": "animation",
+    "urls": {
+      "gltf": "anims/fdda45427f3117e4798bdc6afb195eaf.gltf",
+      "bin": "anims/fdda45427f3117e4798bdc6afb195eaf.bin"
+    }
+  },
+  "6d44fefd267c24346bda3663edd0b081": {
+    "type": "gltf",
+    "urls": {
+      "gltf": "gltfs/6d44fefd267c24346bda3663edd0b081.gltf",
+      "bin": "gltfs/6d44fefd267c24346bda3663edd0b081.bin"
+    }
+  },
+  "0a47475bd6b2b9a408f9f918a96e7eb6": {
+    "type": "prefab",
+    "urls": {
+      "json": "prefabs/0a47475bd6b2b9a408f9f918a96e7eb6.json"
+    }
+  },
+  "025c5f731ab760c4a97f77dd2ebce0d3": {
+    "type": "texture-2d",
+    "urls": {
+      "json": "textures/025c5f731ab760c4a97f77dd2ebce0d3.json",
+      "image": "textures/025c5f731ab760c4a97f77dd2ebce0d3.jpg"
+    }
+  },
+  "9af1e7cd5bae7dc429db5b5d1102b171": {
+    "type": "texture-2d",
+    "urls": {
+      "json": "textures/9af1e7cd5bae7dc429db5b5d1102b171.json",
+      "image": "textures/9af1e7cd5bae7dc429db5b5d1102b171.png"
+    }
+  },
+  "05b748076063608449767dd5fc7243fc": {
+    "type": "material",
+    "urls": {
+      "json": "materials/05b748076063608449767dd5fc7243fc.json"
+    }
+  }
+}

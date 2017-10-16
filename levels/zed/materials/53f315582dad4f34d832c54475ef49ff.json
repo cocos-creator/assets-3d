@@ -1,0 +1,20 @@
+{
+  "type": "phong",
+  "properties": {
+    "diffuseColor": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "diffuse": "8a1c61957b9bb4bf3a6c176103e19c34",
+    "diffuseTiling": [
+      1.0,
+      1.0
+    ],
+    "diffuseOffset": [
+      0.0,
+      0.0
+    ]
+  }
+}
