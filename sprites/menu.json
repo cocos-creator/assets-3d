@@ -1,0 +1,8 @@
+{
+  "anisotropy": 1,
+  "minFilter": "linear",
+  "magFilter": "linear",
+  "mipFilter": "linear",
+  "wrapS": "clamp",
+  "wrapT": "clamp"
+}
