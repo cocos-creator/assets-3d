@@ -1,0 +1,714 @@
+{
+  "children": [
+    0,
+    1,
+    20
+  ],
+  "entities": [
+    {
+      "name": "Main Camera",
+      "translation": [
+        0.0,
+        1.0,
+        10.0
+      ],
+      "components": [
+        {
+          "type": "Camera",
+          "properties": {
+            "projection": "perspective",
+            "fov": 60.0,
+            "orthoHeight": 5.0,
+            "near": 0.3,
+            "far": 1000.0,
+            "priority": -1.0,
+            "color": [
+              0.192156866,
+              0.3019608,
+              0.4745098,
+              0.0
+            ],
+            "clearFlags": 11,
+            "rect": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Canvas",
+      "components": [
+        {
+          "type": "ScreenScaler",
+          "properties": {
+            "scaleFactor": 1.0,
+            "adaptionMode": "none"
+          }
+        },
+        {
+          "type": "Screen",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 0.0,
+            "anchorBottom": 0.0,
+            "anchorTop": 0.0,
+            "offsetX": 274.0,
+            "offsetY": 323.0,
+            "sizeX": 548.0,
+            "sizeY": 646.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "priority": 0
+          }
+        }
+      ],
+      "children": [
+        2
+      ]
+    },
+    {
+      "name": "manager",
+      "components": [
+        {
+          "type": "Image",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 1.0,
+            "anchorBottom": 0.0,
+            "anchorTop": 1.0,
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "sizeX": 0.0,
+            "sizeY": 0.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "type": "sliced",
+            "color": [
+              0.0,
+              0.5862069,
+              1.0,
+              1.0
+            ],
+            "sprite": "round-rect-8px@1404bccc6df90114eb3a195786762bfd"
+          }
+        }
+      ],
+      "children": [
+        3
+      ]
+    },
+    {
+      "name": "panel",
+      "components": [
+        {
+          "type": "Widget",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 1.0,
+            "anchorBottom": 0.0,
+            "anchorTop": 1.0,
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "sizeX": -40.0,
+            "sizeY": -40.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5
+          }
+        },
+        {
+          "type": "GridLayout",
+          "properties": {
+            "paddingLeft": 10,
+            "paddingRight": 10,
+            "paddingBottom": 0,
+            "paddingTop": 10,
+            "spacingX": 5.0,
+            "spacingY": 5.0,
+            "cellWidth": 100.0,
+            "cellHeight": 100.0,
+            "corner": "lower-right",
+            "axisDirection": "vertical",
+            "childAlign": "lower-right",
+            "constraint": "flexible",
+            "constraintCount": 2
+          }
+        }
+      ],
+      "children": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18
+      ]
+    },
+    {
+      "name": "div-01",
+      "translation": [
+        -254.0,
+        -303.0,
+        0.0
+      ],
+      "components": [
+        {
+          "type": "Image",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 0.0,
+            "anchorBottom": 0.0,
+            "anchorTop": 0.0,
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "sizeX": 0.0,
+            "sizeY": 0.0,
+            "pivotX": 0.0,
+            "pivotY": 0.0,
+            "type": "simple",
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "sprite": "orange-box-128x128@a34b792f95e1c7e4aa827ebb33c14d38"
+          }
+        }
+      ],
+      "children": [
+        5
+      ]
+    },
+    {
+      "name": "Text",
+      "components": [
+        {
+          "type": "Text",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 1.0,
+            "anchorBottom": 0.0,
+            "anchorTop": 1.0,
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "sizeX": -10.0,
+            "sizeY": -10.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "font": "f6b4fc4fdfefb5b42aecf73690adb984",
+            "fontFamily": null,
+            "text": "div 01",
+            "fontSize": 20,
+            "align": "middle-center",
+            "color": [
+              0.196078435,
+              0.196078435,
+              0.196078435,
+              1.0
+            ],
+            "italic": false,
+            "bold": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "div-02",
+      "translation": [
+        -254.0,
+        -303.0,
+        0.0
+      ],
+      "components": [
+        {
+          "type": "Image",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 0.0,
+            "anchorBottom": 0.0,
+            "anchorTop": 0.0,
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "sizeX": 0.0,
+            "sizeY": 0.0,
+            "pivotX": 0.0,
+            "pivotY": 0.0,
+            "type": "simple",
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "sprite": "orange-box-128x128@a34b792f95e1c7e4aa827ebb33c14d38"
+          }
+        }
+      ],
+      "children": [
+        7
+      ]
+    },
+    {
+      "name": "Text",
+      "components": [
+        {
+          "type": "Text",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 1.0,
+            "anchorBottom": 0.0,
+            "anchorTop": 1.0,
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "sizeX": -10.0,
+            "sizeY": -10.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "font": "f6b4fc4fdfefb5b42aecf73690adb984",
+            "fontFamily": null,
+            "text": "div 02",
+            "fontSize": 20,
+            "align": "middle-center",
+            "color": [
+              0.196078435,
+              0.196078435,
+              0.196078435,
+              1.0
+            ],
+            "italic": false,
+            "bold": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "div-03",
+      "translation": [
+        -254.0,
+        -303.0,
+        0.0
+      ],
+      "components": [
+        {
+          "type": "Image",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 0.0,
+            "anchorBottom": 0.0,
+            "anchorTop": 0.0,
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "sizeX": 0.0,
+            "sizeY": 0.0,
+            "pivotX": 0.0,
+            "pivotY": 0.0,
+            "type": "simple",
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "sprite": "orange-box-128x128@a34b792f95e1c7e4aa827ebb33c14d38"
+          }
+        }
+      ],
+      "children": [
+        9
+      ]
+    },
+    {
+      "name": "Text",
+      "components": [
+        {
+          "type": "Text",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 1.0,
+            "anchorBottom": 0.0,
+            "anchorTop": 1.0,
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "sizeX": -10.0,
+            "sizeY": -10.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "font": "f6b4fc4fdfefb5b42aecf73690adb984",
+            "fontFamily": null,
+            "text": "div 03",
+            "fontSize": 20,
+            "align": "middle-center",
+            "color": [
+              0.196078435,
+              0.196078435,
+              0.196078435,
+              1.0
+            ],
+            "italic": false,
+            "bold": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "div-04",
+      "translation": [
+        -254.0,
+        -303.0,
+        0.0
+      ],
+      "components": [
+        {
+          "type": "Image",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 0.0,
+            "anchorBottom": 0.0,
+            "anchorTop": 0.0,
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "sizeX": 0.0,
+            "sizeY": 0.0,
+            "pivotX": 0.0,
+            "pivotY": 0.0,
+            "type": "simple",
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "sprite": "orange-box-128x128@a34b792f95e1c7e4aa827ebb33c14d38"
+          }
+        }
+      ],
+      "children": [
+        11
+      ]
+    },
+    {
+      "name": "Text",
+      "components": [
+        {
+          "type": "Text",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 1.0,
+            "anchorBottom": 0.0,
+            "anchorTop": 1.0,
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "sizeX": -10.0,
+            "sizeY": -10.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "font": "f6b4fc4fdfefb5b42aecf73690adb984",
+            "fontFamily": null,
+            "text": "div 04",
+            "fontSize": 20,
+            "align": "middle-center",
+            "color": [
+              0.196078435,
+              0.196078435,
+              0.196078435,
+              1.0
+            ],
+            "italic": false,
+            "bold": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "div-05",
+      "translation": [
+        -254.0,
+        -303.0,
+        0.0
+      ],
+      "components": [
+        {
+          "type": "Image",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 0.0,
+            "anchorBottom": 0.0,
+            "anchorTop": 0.0,
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "sizeX": 0.0,
+            "sizeY": 0.0,
+            "pivotX": 0.0,
+            "pivotY": 0.0,
+            "type": "simple",
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "sprite": "orange-box-128x128@a34b792f95e1c7e4aa827ebb33c14d38"
+          }
+        }
+      ],
+      "children": [
+        13
+      ]
+    },
+    {
+      "name": "Text",
+      "components": [
+        {
+          "type": "Text",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 1.0,
+            "anchorBottom": 0.0,
+            "anchorTop": 1.0,
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "sizeX": -10.0,
+            "sizeY": -10.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "font": "f6b4fc4fdfefb5b42aecf73690adb984",
+            "fontFamily": null,
+            "text": "div 05",
+            "fontSize": 20,
+            "align": "middle-center",
+            "color": [
+              0.196078435,
+              0.196078435,
+              0.196078435,
+              1.0
+            ],
+            "italic": false,
+            "bold": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "div-06",
+      "translation": [
+        -254.0,
+        -303.0,
+        0.0
+      ],
+      "components": [
+        {
+          "type": "Image",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 0.0,
+            "anchorBottom": 0.0,
+            "anchorTop": 0.0,
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "sizeX": 0.0,
+            "sizeY": 0.0,
+            "pivotX": 0.0,
+            "pivotY": 0.0,
+            "type": "simple",
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "sprite": "orange-box-128x128@a34b792f95e1c7e4aa827ebb33c14d38"
+          }
+        }
+      ],
+      "children": [
+        15
+      ]
+    },
+    {
+      "name": "Text",
+      "components": [
+        {
+          "type": "Text",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 1.0,
+            "anchorBottom": 0.0,
+            "anchorTop": 1.0,
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "sizeX": -10.0,
+            "sizeY": -10.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "font": "f6b4fc4fdfefb5b42aecf73690adb984",
+            "fontFamily": null,
+            "text": "div 06",
+            "fontSize": 20,
+            "align": "middle-center",
+            "color": [
+              0.196078435,
+              0.196078435,
+              0.196078435,
+              1.0
+            ],
+            "italic": false,
+            "bold": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "div-07",
+      "translation": [
+        -254.0,
+        -303.0,
+        0.0
+      ],
+      "components": [
+        {
+          "type": "Image",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 0.0,
+            "anchorBottom": 0.0,
+            "anchorTop": 0.0,
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "sizeX": 0.0,
+            "sizeY": 0.0,
+            "pivotX": 0.0,
+            "pivotY": 0.0,
+            "type": "simple",
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "sprite": "orange-box-128x128@a34b792f95e1c7e4aa827ebb33c14d38"
+          }
+        }
+      ],
+      "children": [
+        17
+      ]
+    },
+    {
+      "name": "Text",
+      "components": [
+        {
+          "type": "Text",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 1.0,
+            "anchorBottom": 0.0,
+            "anchorTop": 1.0,
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "sizeX": -10.0,
+            "sizeY": -10.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "font": "f6b4fc4fdfefb5b42aecf73690adb984",
+            "fontFamily": null,
+            "text": "div 07",
+            "fontSize": 20,
+            "align": "middle-center",
+            "color": [
+              0.196078435,
+              0.196078435,
+              0.196078435,
+              1.0
+            ],
+            "italic": false,
+            "bold": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "div-08",
+      "translation": [
+        -254.0,
+        -303.0,
+        0.0
+      ],
+      "components": [
+        {
+          "type": "Image",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 0.0,
+            "anchorBottom": 0.0,
+            "anchorTop": 0.0,
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "sizeX": 0.0,
+            "sizeY": 0.0,
+            "pivotX": 0.0,
+            "pivotY": 0.0,
+            "type": "simple",
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "sprite": "orange-box-128x128@a34b792f95e1c7e4aa827ebb33c14d38"
+          }
+        }
+      ],
+      "children": [
+        19
+      ]
+    },
+    {
+      "name": "Text",
+      "components": [
+        {
+          "type": "Text",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 1.0,
+            "anchorBottom": 0.0,
+            "anchorTop": 1.0,
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "sizeX": -10.0,
+            "sizeY": -10.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "font": "f6b4fc4fdfefb5b42aecf73690adb984",
+            "fontFamily": null,
+            "text": "div 08",
+            "fontSize": 20,
+            "align": "middle-center",
+            "color": [
+              0.196078435,
+              0.196078435,
+              0.196078435,
+              1.0
+            ],
+            "italic": false,
+            "bold": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "EventSystem"
+    }
+  ],
+  "preloads": [
+    "round-rect-8px@1404bccc6df90114eb3a195786762bfd",
+    "orange-box-128x128@a34b792f95e1c7e4aa827ebb33c14d38",
+    "f6b4fc4fdfefb5b42aecf73690adb984"
+  ],
+  "skyboxes": []
+}

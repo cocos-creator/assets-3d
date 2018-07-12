@@ -1,0 +1,147 @@
+{
+  "children": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "entities": [
+    {
+      "name": "Main Camera",
+      "translation": [
+        5.12753963,
+        6.953082,
+        6.23318
+      ],
+      "rotation": [
+        -0.33964628,
+        0.2859592,
+        0.109209448,
+        0.8893486
+      ],
+      "components": [
+        {
+          "type": "Camera",
+          "properties": {
+            "projection": "perspective",
+            "fov": 60.0,
+            "orthoHeight": 5.0,
+            "near": 0.3,
+            "far": 1000.0,
+            "priority": -1.0,
+            "color": [
+              0.192156866,
+              0.3019608,
+              0.4745098,
+              0.0
+            ],
+            "clearFlags": 3,
+            "rect": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Directional Light",
+      "translation": [
+        0.0,
+        3.0,
+        0.0
+      ],
+      "rotation": [
+        -0.408217877,
+        0.234569684,
+        0.109381631,
+        0.8754261
+      ],
+      "components": [
+        {
+          "type": "Light",
+          "properties": {
+            "color": [
+              1.0,
+              0.956862748,
+              0.8392157
+            ],
+            "intensity": 1.0,
+            "shadowType": "soft",
+            "shadowDarkness": 1.0,
+            "shadowBias": 0.05
+          }
+        }
+      ]
+    },
+    {
+      "name": "block_1x1x1",
+      "prefab": "d6a08c144108b4805ace472f91462702",
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071067
+      ],
+      "modifications": [
+        {
+          "property": "Model.enabled",
+          "entity": 0,
+          "value": false
+        }
+      ]
+    },
+    {
+      "name": "block_2x2x1",
+      "prefab": "ceaa6f5b31eb64555aa3f472f81c7eba",
+      "translation": [
+        1.89,
+        0.0,
+        -1.53
+      ],
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ]
+    },
+    {
+      "name": "block_2x2x2",
+      "prefab": "656f510fe306c453ab749f019e8dde8d",
+      "enabled": false,
+      "translation": [
+        2.59,
+        0.0,
+        2.54
+      ],
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "modifications": [
+        {
+          "property": "enabled",
+          "entity": 0,
+          "value": false
+        }
+      ]
+    }
+  ],
+  "preloads": [
+    "bf8102a39070c40539457dd742b7d7ac",
+    "0bea3f15f960c4a329b34c300228f638",
+    "2751bfe6837879649bc54e1823cdf856",
+    "bf5f3073f12204fdf8334b2226044345",
+    "1d46b15531e7749028c5f706361c21d6",
+    "d6a08c144108b4805ace472f91462702",
+    "ceaa6f5b31eb64555aa3f472f81c7eba",
+    "656f510fe306c453ab749f019e8dde8d"
+  ],
+  "skyboxes": []
+}

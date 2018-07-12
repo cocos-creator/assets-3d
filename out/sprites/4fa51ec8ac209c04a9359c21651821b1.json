@@ -1,0 +1,23 @@
+{
+  "sprites": {
+    "dark-gray-trimmed-box-128x128": {
+      "texture": "4fa51ec8ac209c04a9359c21651821b1",
+      "rotated": false,
+      "x": 0.0,
+      "y": 0.0,
+      "width": 128.0,
+      "height": 128.0,
+      "left": 0.0,
+      "right": 0.0,
+      "bottom": 0.0,
+      "top": 0.0
+    }
+  },
+  "type": "sprite",
+  "anisotropy": 1,
+  "minFilter": "linear",
+  "magFilter": "linear",
+  "mipFilter": "nearest",
+  "wrapS": "clamp",
+  "wrapT": "clamp"
+}

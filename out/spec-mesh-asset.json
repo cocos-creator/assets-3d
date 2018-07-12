@@ -1,0 +1,154 @@
+{
+  "children": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "entities": [
+    {
+      "name": "Main Camera",
+      "translation": [
+        0.0,
+        1.0,
+        10.0
+      ],
+      "components": [
+        {
+          "type": "Camera",
+          "properties": {
+            "projection": "perspective",
+            "fov": 60.0,
+            "orthoHeight": 5.0,
+            "near": 0.3,
+            "far": 1000.0,
+            "priority": -1.0,
+            "color": [
+              0.192156866,
+              0.3019608,
+              0.4745098,
+              0.0
+            ],
+            "clearFlags": 11,
+            "rect": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Directional Light",
+      "translation": [
+        0.0,
+        3.0,
+        0.0
+      ],
+      "rotation": [
+        -0.408217877,
+        0.234569684,
+        0.109381631,
+        0.8754261
+      ],
+      "components": [
+        {
+          "type": "Light",
+          "properties": {
+            "color": [
+              1.0,
+              0.956862748,
+              0.8392157
+            ],
+            "intensity": 1.0,
+            "shadowType": "soft",
+            "shadowDarkness": 1.0,
+            "shadowBias": 0.05
+          }
+        }
+      ]
+    },
+    {
+      "name": "a00Block",
+      "prefab": "1b5eb5949577949e19a7783c07422e58"
+    },
+    {
+      "name": "a01HalfBlock",
+      "prefab": "757ea514b900e42efa10ffe74649c768",
+      "translation": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "name": "a02Floor",
+      "prefab": "c8d5beb2c62094536aecfe598397ce19",
+      "translation": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "a08StepsHigh",
+      "prefab": "bf7eb79cbe11240bab6a1274de4a73d7",
+      "translation": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "a02Floor (1)",
+      "prefab": "c8d5beb2c62094536aecfe598397ce19",
+      "translation": [
+        1.0,
+        0.0,
+        1.0
+      ],
+      "modifications": [
+        {
+          "property": "name",
+          "entity": 0,
+          "value": "a02Floor (1)"
+        }
+      ]
+    },
+    {
+      "name": "a02Floor (2)",
+      "prefab": "c8d5beb2c62094536aecfe598397ce19",
+      "translation": [
+        1.0,
+        0.0,
+        -1.0
+      ],
+      "modifications": [
+        {
+          "property": "name",
+          "entity": 0,
+          "value": "a02Floor (2)"
+        }
+      ]
+    }
+  ],
+  "preloads": [
+    "677274093d9785c47b4e36a9dc0e06b6",
+    "5a6b6c2feaed1d74d857879e8881c4f3",
+    "837f1b8ff169dc840b18862d7fe9350e",
+    "2546d65f1d9931f4aa60b2508c324b3b",
+    "d9b50de5e1c21324dbbcc6f49c78c108",
+    "7a741a3714d245a4da6d0f97269fb74e",
+    "1b5eb5949577949e19a7783c07422e58",
+    "757ea514b900e42efa10ffe74649c768",
+    "c8d5beb2c62094536aecfe598397ce19",
+    "bf7eb79cbe11240bab6a1274de4a73d7"
+  ],
+  "skyboxes": []
+}

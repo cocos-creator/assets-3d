@@ -1,0 +1,398 @@
+{
+  "asset": {
+    "generator": "u3d-exporter",
+    "version": "1.0.0"
+  },
+  "accessors": [
+    {
+      "name": "position@SamplePotBody",
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 6768,
+      "type": "VEC3",
+      "min": [
+        -0.427951068,
+        0.000716234557,
+        -0.427950263
+      ],
+      "max": [
+        0.427951068,
+        0.9360572,
+        0.427950263
+      ]
+    },
+    {
+      "name": "normal@SamplePotBody",
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 6768,
+      "type": "VEC3",
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "tangent@SamplePotBody",
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 6768,
+      "type": "VEC4",
+      "min": [
+        -1.0,
+        -0.813671231,
+        -1.0,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        0.813671231,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "uv0@SamplePotBody",
+      "bufferView": 0,
+      "byteOffset": 40,
+      "componentType": 5126,
+      "count": 6768,
+      "type": "VEC2"
+    },
+    {
+      "name": "uv1@SamplePotBody",
+      "bufferView": 0,
+      "byteOffset": 48,
+      "componentType": 5126,
+      "count": 6768,
+      "type": "VEC2"
+    },
+    {
+      "name": "indices0@SamplePotBody",
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 37584,
+      "type": "SCALAR"
+    },
+    {
+      "name": "position@SamplePotLabel",
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 650,
+      "type": "VEC3",
+      "min": [
+        -0.429508418,
+        0.02307489,
+        -0.429508418
+      ],
+      "max": [
+        0.429508418,
+        0.221508265,
+        0.429508418
+      ]
+    },
+    {
+      "name": "normal@SamplePotLabel",
+      "bufferView": 2,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 650,
+      "type": "VEC3",
+      "min": [
+        -0.999969959,
+        -0.8164884,
+        -0.999969959
+      ],
+      "max": [
+        0.999969959,
+        0.698799431,
+        0.999969959
+      ]
+    },
+    {
+      "name": "tangent@SamplePotLabel",
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 650,
+      "type": "VEC4",
+      "min": [
+        -1.0,
+        -0.053447213,
+        -1.0,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        0.05344267,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "uv0@SamplePotLabel",
+      "bufferView": 2,
+      "byteOffset": 40,
+      "componentType": 5126,
+      "count": 650,
+      "type": "VEC2"
+    },
+    {
+      "name": "uv1@SamplePotLabel",
+      "bufferView": 2,
+      "byteOffset": 48,
+      "componentType": 5126,
+      "count": 650,
+      "type": "VEC2"
+    },
+    {
+      "name": "indices0@SamplePotLabel",
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 3456,
+      "type": "SCALAR"
+    },
+    {
+      "name": "position@SamplePotLid",
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 3555,
+      "type": "VEC3",
+      "min": [
+        -0.382637858,
+        0.8109902,
+        -0.382637918
+      ],
+      "max": [
+        0.382637918,
+        0.9557452,
+        0.382637918
+      ]
+    },
+    {
+      "name": "normal@SamplePotLid",
+      "bufferView": 4,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 3555,
+      "type": "VEC3",
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "tangent@SamplePotLid",
+      "bufferView": 4,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 3555,
+      "type": "VEC4",
+      "min": [
+        -1.0,
+        -0.931075633,
+        -1.0,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        0.9310744,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "uv0@SamplePotLid",
+      "bufferView": 4,
+      "byteOffset": 40,
+      "componentType": 5126,
+      "count": 3555,
+      "type": "VEC2"
+    },
+    {
+      "name": "uv1@SamplePotLid",
+      "bufferView": 4,
+      "byteOffset": 48,
+      "componentType": 5126,
+      "count": 3555,
+      "type": "VEC2"
+    },
+    {
+      "name": "indices0@SamplePotLid",
+      "bufferView": 5,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 17808,
+      "type": "SCALAR"
+    },
+    {
+      "name": "indices1@SamplePotLid",
+      "bufferView": 6,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 1728,
+      "type": "SCALAR"
+    }
+  ],
+  "buffers": [
+    {
+      "name": "SamplePot",
+      "uri": "73825ba8bfe6b4e2facea00a4af09df0.bin",
+      "byteLength": 735640
+    }
+  ],
+  "bufferViews": [
+    {
+      "name": "vb@SamplePotBody",
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 379008,
+      "byteStride": 56,
+      "target": 34962
+    },
+    {
+      "name": "ib0@SamplePotBody",
+      "buffer": 0,
+      "byteOffset": 379008,
+      "byteLength": 75168,
+      "target": 34963
+    },
+    {
+      "name": "vb@SamplePotLabel",
+      "buffer": 0,
+      "byteOffset": 454176,
+      "byteLength": 36400,
+      "byteStride": 56,
+      "target": 34962
+    },
+    {
+      "name": "ib0@SamplePotLabel",
+      "buffer": 0,
+      "byteOffset": 490576,
+      "byteLength": 6912,
+      "target": 34963
+    },
+    {
+      "name": "vb@SamplePotLid",
+      "buffer": 0,
+      "byteOffset": 497488,
+      "byteLength": 199080,
+      "byteStride": 56,
+      "target": 34962
+    },
+    {
+      "name": "ib0@SamplePotLid",
+      "buffer": 0,
+      "byteOffset": 696568,
+      "byteLength": 35616,
+      "target": 34963
+    },
+    {
+      "name": "ib1@SamplePotLid",
+      "buffer": 0,
+      "byteOffset": 732184,
+      "byteLength": 3456,
+      "target": 34963
+    }
+  ],
+  "meshes": [
+    {
+      "name": "SamplePotBody",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5
+        }
+      ]
+    },
+    {
+      "name": "SamplePotLabel",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TANGENT": 8,
+            "TEXCOORD_0": 9,
+            "TEXCOORD_1": 10
+          },
+          "indices": 11
+        }
+      ]
+    },
+    {
+      "name": "SamplePotLid",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 12,
+            "NORMAL": 13,
+            "TANGENT": 14,
+            "TEXCOORD_0": 15,
+            "TEXCOORD_1": 16
+          },
+          "indices": 17
+        },
+        {
+          "attributes": {
+            "POSITION": 12,
+            "NORMAL": 13,
+            "TANGENT": 14,
+            "TEXCOORD_0": 15,
+            "TEXCOORD_1": 16
+          },
+          "indices": 18
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "SamplePot",
+      "children": [
+        1,
+        3
+      ]
+    },
+    {
+      "name": "SamplePotBody",
+      "children": [
+        2
+      ],
+      "mesh": 0
+    },
+    {
+      "name": "SamplePotLabel",
+      "mesh": 1
+    },
+    {
+      "name": "SamplePotLid",
+      "mesh": 2
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "children": [
+    0,
+    1
+  ],
+  "entities": [
+    {
+      "name": "Main Camera",
+      "translation": [
+        0.0,
+        1.0,
+        10.0
+      ],
+      "components": [
+        {
+          "type": "Camera",
+          "properties": {
+            "projection": "perspective",
+            "fov": 60.0,
+            "orthoHeight": 5.0,
+            "near": 0.3,
+            "far": 1000.0,
+            "priority": -1.0,
+            "color": [
+              0.192156866,
+              0.3019608,
+              0.4745098,
+              0.0
+            ],
+            "clearFlags": 11,
+            "rect": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Canvas",
+      "components": [
+        {
+          "type": "ScreenScaler",
+          "properties": {
+            "scaleFactor": 1.0,
+            "adaptionMode": "none"
+          }
+        },
+        {
+          "type": "Screen",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 0.0,
+            "anchorBottom": 0.0,
+            "anchorTop": 0.0,
+            "offsetX": 274.0,
+            "offsetY": 323.0,
+            "sizeX": 548.0,
+            "sizeY": 646.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "priority": 0
+          }
+        }
+      ],
+      "children": [
+        2
+      ]
+    },
+    {
+      "name": "Button",
+      "components": [
+        {
+          "type": "Image",
+          "properties": {
+            "anchorLeft": 0.5,
+            "anchorRight": 0.5,
+            "anchorBottom": 0.5,
+            "anchorTop": 0.5,
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "sizeX": 160.0,
+            "sizeY": 30.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "type": "sliced",
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "sprite": "rect-ry8@07d91d9460b9e0c47b239fe98e5e0395"
+          }
+        },
+        {
+          "type": "Button",
+          "properties": {
+            "background": "e2",
+            "transitionSprites": {
+              "normal": null,
+              "highlight": "rect-8px-ry8@cdf00f98e3d043344bae9b5a9d8b6e14",
+              "pressed": "round-rect@a74dacc9bfcf47749a8630eac3456429",
+              "disabled": "round-rect-2px@9a9f6b9d76e06054e8dd89bf95d08a0e"
+            },
+            "transition": "sprite"
+          }
+        }
+      ]
+    }
+  ],
+  "preloads": [
+    "rect-ry8@07d91d9460b9e0c47b239fe98e5e0395",
+    "rect-8px-ry8@cdf00f98e3d043344bae9b5a9d8b6e14",
+    "round-rect@a74dacc9bfcf47749a8630eac3456429",
+    "round-rect-2px@9a9f6b9d76e06054e8dd89bf95d08a0e"
+  ],
+  "skyboxes": []
+}

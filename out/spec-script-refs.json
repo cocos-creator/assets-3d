@@ -1,0 +1,139 @@
+{
+  "children": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "entities": [
+    {
+      "name": "Main Camera",
+      "translation": [
+        5.19056273,
+        5.26149654,
+        8.9112215
+      ],
+      "rotation": [
+        0.211071134,
+        -0.209264278,
+        -0.0463150479,
+        -0.953683555
+      ],
+      "components": [
+        {
+          "type": "Camera",
+          "properties": {
+            "projection": "perspective",
+            "fov": 60.0,
+            "orthoHeight": 5.0,
+            "near": 0.3,
+            "far": 1000.0,
+            "priority": -1.0,
+            "color": [
+              0.192156866,
+              0.3019608,
+              0.4745098,
+              0.0
+            ],
+            "clearFlags": 11,
+            "rect": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "block_2x2x2",
+      "prefab": "656f510fe306c453ab749f019e8dde8d",
+      "translation": [
+        -4.14,
+        0.0,
+        -3.27
+      ],
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ]
+    },
+    {
+      "name": "block_4x4x1",
+      "prefab": "29fbb423d763f43399715b6712195e6c",
+      "translation": [
+        3.76,
+        0.0,
+        -3.99
+      ],
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ]
+    },
+    {
+      "name": "prefab-ref",
+      "prefab": "c40a87ba2be1e475d85457e440f072eb"
+    },
+    {
+      "name": "Directional Light",
+      "translation": [
+        0.0,
+        3.0,
+        0.0
+      ],
+      "rotation": [
+        -0.408217877,
+        0.234569684,
+        0.109381631,
+        0.8754261
+      ],
+      "components": [
+        {
+          "type": "Light",
+          "properties": {
+            "color": [
+              1.0,
+              0.956862748,
+              0.8392157
+            ],
+            "intensity": 1.0,
+            "shadowType": "soft",
+            "shadowDarkness": 1.0,
+            "shadowBias": 0.05
+          }
+        }
+      ]
+    },
+    {
+      "name": "refs",
+      "components": [
+        {
+          "type": "Refs",
+          "properties": {
+            "entityA": "e3",
+            "entityB": "e2"
+          }
+        }
+      ]
+    }
+  ],
+  "preloads": [
+    "bf8102a39070c40539457dd742b7d7ac",
+    "1d46b15531e7749028c5f706361c21d6",
+    "cce31d0ca283e4e31a5c9a88553d1998",
+    "2751bfe6837879649bc54e1823cdf856",
+    "acb58da92fa054c20a041895e0fd2e3b",
+    "656f510fe306c453ab749f019e8dde8d",
+    "29fbb423d763f43399715b6712195e6c",
+    "c40a87ba2be1e475d85457e440f072eb"
+  ],
+  "skyboxes": []
+}

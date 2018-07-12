@@ -1,0 +1,151 @@
+{
+  "children": [
+    0,
+    1,
+    2,
+    4
+  ],
+  "entities": [
+    {
+      "name": "Main Camera",
+      "translation": [
+        0.0,
+        1.0,
+        10.0
+      ],
+      "components": [
+        {
+          "type": "Camera",
+          "properties": {
+            "projection": "perspective",
+            "fov": 60.0,
+            "orthoHeight": 5.0,
+            "near": 0.3,
+            "far": 1000.0,
+            "priority": -1.0,
+            "color": [
+              0.192156866,
+              0.3019608,
+              0.4745098,
+              0.0
+            ],
+            "clearFlags": 11,
+            "rect": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Directional Light",
+      "translation": [
+        0.0,
+        3.0,
+        0.0
+      ],
+      "rotation": [
+        -0.408217877,
+        0.234569684,
+        0.109381631,
+        0.8754261
+      ],
+      "components": [
+        {
+          "type": "Light",
+          "properties": {
+            "color": [
+              1.0,
+              0.956862748,
+              0.8392157
+            ],
+            "intensity": 1.0,
+            "shadowType": "soft",
+            "shadowDarkness": 1.0,
+            "shadowBias": 0.05
+          }
+        }
+      ]
+    },
+    {
+      "name": "Canvas",
+      "components": [
+        {
+          "type": "ScreenScaler",
+          "properties": {
+            "scaleFactor": 1.0,
+            "adaptionMode": "none"
+          }
+        },
+        {
+          "type": "Screen",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 0.0,
+            "anchorBottom": 0.0,
+            "anchorTop": 0.0,
+            "offsetX": 274.0,
+            "offsetY": 323.0,
+            "sizeX": 548.0,
+            "sizeY": 646.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "priority": 0
+          }
+        }
+      ],
+      "children": [
+        3
+      ]
+    },
+    {
+      "name": "Text",
+      "translation": [
+        -4.0,
+        0.9,
+        0.0
+      ],
+      "components": [
+        {
+          "type": "Text",
+          "properties": {
+            "anchorLeft": 0.5,
+            "anchorRight": 0.5,
+            "anchorBottom": 0.5,
+            "anchorTop": 0.5,
+            "offsetX": -4.0,
+            "offsetY": 0.9,
+            "sizeX": 440.1,
+            "sizeY": 251.1,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "font": "13f5d2d9144104963aa39e587d1007b3",
+            "fontFamily": null,
+            "text": "Foobar",
+            "fontSize": 72,
+            "align": "middle-center",
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "italic": false,
+            "bold": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "EventSystem"
+    }
+  ],
+  "preloads": [
+    "1a239aef466c34ac98901f9393a9ba9a",
+    "13f5d2d9144104963aa39e587d1007b3"
+  ],
+  "skyboxes": []
+}

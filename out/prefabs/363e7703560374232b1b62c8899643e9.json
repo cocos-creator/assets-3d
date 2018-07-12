@@ -1,0 +1,41 @@
+{
+  "entities": [
+    {
+      "name": "prefab-with-custom-transform",
+      "translation": [
+        2.0,
+        0.2,
+        -2.0
+      ],
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        1.0,
+        2.0,
+        1.0
+      ],
+      "components": [
+        {
+          "type": "Model",
+          "properties": {
+            "mesh": "m0@2751bfe6837879649bc54e1823cdf856",
+            "materials": [
+              "bf8102a39070c40539457dd742b7d7ac"
+            ],
+            "shadowCastingMode": "on",
+            "receiveShadows": true
+          }
+        }
+      ]
+    }
+  ],
+  "preloads": [
+    "bf8102a39070c40539457dd742b7d7ac",
+    "0bea3f15f960c4a329b34c300228f638",
+    "2751bfe6837879649bc54e1823cdf856"
+  ]
+}

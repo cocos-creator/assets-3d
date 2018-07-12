@@ -1,0 +1,25 @@
+{
+  "entities": [
+    {
+      "name": "a01HalfBlock",
+      "components": [
+        {
+          "type": "Model",
+          "properties": {
+            "mesh": "2546d65f1d9931f4aa60b2508c324b3b",
+            "materials": [
+              "677274093d9785c47b4e36a9dc0e06b6"
+            ],
+            "shadowCastingMode": "on",
+            "receiveShadows": true
+          }
+        }
+      ]
+    }
+  ],
+  "preloads": [
+    "677274093d9785c47b4e36a9dc0e06b6",
+    "5a6b6c2feaed1d74d857879e8881c4f3",
+    "2546d65f1d9931f4aa60b2508c324b3b"
+  ]
+}

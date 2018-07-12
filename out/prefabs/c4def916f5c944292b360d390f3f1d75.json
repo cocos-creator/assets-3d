@@ -1,0 +1,36 @@
+{
+  "entities": [
+    {
+      "name": "floor_20",
+      "translation": [
+        -4.077966,
+        -0.45,
+        6.62541962
+      ],
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "components": [
+        {
+          "type": "Model",
+          "properties": {
+            "mesh": "m0@f75051938c307468eb1105b09008a72a",
+            "materials": [
+              "bf8102a39070c40539457dd742b7d7ac"
+            ],
+            "shadowCastingMode": "on",
+            "receiveShadows": true
+          }
+        }
+      ]
+    }
+  ],
+  "preloads": [
+    "bf8102a39070c40539457dd742b7d7ac",
+    "0bea3f15f960c4a329b34c300228f638",
+    "f75051938c307468eb1105b09008a72a"
+  ]
+}

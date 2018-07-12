@@ -1,0 +1,241 @@
+{
+  "children": [
+    0,
+    1,
+    2,
+    7
+  ],
+  "entities": [
+    {
+      "name": "Main Camera",
+      "translation": [
+        0.0,
+        1.0,
+        10.0
+      ],
+      "components": [
+        {
+          "type": "Camera",
+          "properties": {
+            "projection": "perspective",
+            "fov": 60.0,
+            "orthoHeight": 5.0,
+            "near": 0.3,
+            "far": 1000.0,
+            "priority": -1.0,
+            "color": [
+              0.192156866,
+              0.3019608,
+              0.4745098,
+              0.0
+            ],
+            "clearFlags": 11,
+            "rect": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Directional Light",
+      "translation": [
+        0.0,
+        3.0,
+        0.0
+      ],
+      "rotation": [
+        -0.408217877,
+        0.234569684,
+        0.109381631,
+        0.8754261
+      ],
+      "components": [
+        {
+          "type": "Light",
+          "properties": {
+            "color": [
+              1.0,
+              0.956862748,
+              0.8392157
+            ],
+            "intensity": 1.0,
+            "shadowType": "soft",
+            "shadowDarkness": 1.0,
+            "shadowBias": 0.05
+          }
+        }
+      ]
+    },
+    {
+      "name": "Canvas",
+      "components": [
+        {
+          "type": "ScreenScaler",
+          "properties": {
+            "scaleFactor": 1.0,
+            "adaptionMode": "none"
+          }
+        },
+        {
+          "type": "Screen",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 0.0,
+            "anchorBottom": 0.0,
+            "anchorTop": 0.0,
+            "offsetX": 274.0,
+            "offsetY": 323.0,
+            "sizeX": 548.0,
+            "sizeY": 646.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "priority": 0
+          }
+        }
+      ],
+      "children": [
+        3
+      ]
+    },
+    {
+      "name": "mask1",
+      "components": [
+        {
+          "type": "Mask",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 1.0,
+            "anchorBottom": 0.0,
+            "anchorTop": 1.0,
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "sizeX": -100.0,
+            "sizeY": -100.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5
+          }
+        }
+      ],
+      "children": [
+        4,
+        5
+      ]
+    },
+    {
+      "name": "Image",
+      "translation": [
+        374.0,
+        179.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.382683426,
+        0.923879564
+      ],
+      "components": [
+        {
+          "type": "Image",
+          "properties": {
+            "anchorLeft": 0.5,
+            "anchorRight": 0.5,
+            "anchorBottom": 0.5,
+            "anchorTop": 0.5,
+            "offsetX": 374.0,
+            "offsetY": 179.0,
+            "sizeX": 502.0,
+            "sizeY": 244.1,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "type": "simple",
+            "color": [
+              1.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "sprite": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "mask1 (1)",
+      "rotation": [
+        0.0,
+        0.0,
+        0.3420201,
+        0.9396927
+      ],
+      "components": [
+        {
+          "type": "Mask",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 1.0,
+            "anchorBottom": 0.0,
+            "anchorTop": 1.0,
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "sizeX": 0.0,
+            "sizeY": 0.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5
+          }
+        }
+      ],
+      "children": [
+        6
+      ]
+    },
+    {
+      "name": "Image",
+      "translation": [
+        -343.0,
+        -2.2888E-05,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.382683426,
+        0.923879564
+      ],
+      "components": [
+        {
+          "type": "Image",
+          "properties": {
+            "anchorLeft": 0.5,
+            "anchorRight": 0.5,
+            "anchorBottom": 0.5,
+            "anchorTop": 0.5,
+            "offsetX": -343.0,
+            "offsetY": -2.2888E-05,
+            "sizeX": 502.0,
+            "sizeY": 244.1,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "type": "simple",
+            "color": [
+              1.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "sprite": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "EventSystem"
+    }
+  ],
+  "preloads": [],
+  "skyboxes": []
+}

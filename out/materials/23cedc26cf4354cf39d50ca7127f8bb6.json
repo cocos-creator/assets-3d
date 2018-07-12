@@ -1,0 +1,63 @@
+{
+  "type": "grid",
+  "properties": {
+    "tilingX": [
+      1.0
+    ],
+    "tilingY": [
+      1.0
+    ],
+    "basePattern": "0eeaa8b7239094d56884e60497ef35b3",
+    "basePatternTiling": [
+      1.0,
+      1.0
+    ],
+    "basePatternOffset": [
+      0.0,
+      0.0
+    ],
+    "subPattern": "37cff16bc15964af0946cab2fd59390b",
+    "subPatternTiling": [
+      1.0,
+      1.0
+    ],
+    "subPatternOffset": [
+      0.0,
+      0.0
+    ],
+    "subPattern2": "d4ae3ce899fe840009f2b7afc8e2ac42",
+    "subPattern2Tiling": [
+      1.0,
+      1.0
+    ],
+    "subPattern2Offset": [
+      0.0,
+      0.0
+    ],
+    "baseColorWhite": [
+      1.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "baseColorBlack": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "subPatternColor": [
+      0.6397059,
+      0.6397059,
+      0.6397059,
+      1.0
+    ],
+    "subPatternColor2": [
+      0.6544118,
+      0.6544118,
+      0.6544118,
+      1.0
+    ],
+    "useWorldPos": true
+  }
+}

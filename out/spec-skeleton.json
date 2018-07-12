@@ -1,0 +1,183 @@
+{
+  "children": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "entities": [
+    {
+      "name": "Main Camera",
+      "translation": [
+        -2.15566826,
+        1.86520028,
+        3.10435772
+      ],
+      "rotation": [
+        0.0577961877,
+        0.352444053,
+        0.0218140371,
+        -0.933791757
+      ],
+      "components": [
+        {
+          "type": "Camera",
+          "properties": {
+            "projection": "perspective",
+            "fov": 60.0,
+            "orthoHeight": 5.0,
+            "near": 0.3,
+            "far": 1000.0,
+            "priority": 1.0,
+            "color": [
+              0.192156866,
+              0.3019608,
+              0.4745098,
+              0.0
+            ],
+            "clearFlags": 11,
+            "rect": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "TestCamera",
+      "translation": [
+        2.0,
+        2.0,
+        3.0
+      ],
+      "rotation": [
+        -0.282570958,
+        0.326190352,
+        0.102847405,
+        0.896200836
+      ],
+      "components": [
+        {
+          "type": "Camera",
+          "properties": {
+            "projection": "ortho",
+            "fov": 60.0,
+            "orthoHeight": 3.0,
+            "near": 1.0,
+            "far": 5.0,
+            "priority": 0.0,
+            "color": [
+              0.192156866,
+              0.3019608,
+              0.4745098,
+              0.0
+            ],
+            "clearFlags": 11,
+            "rect": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "light",
+      "translation": [
+        2.0,
+        2.0,
+        3.0
+      ],
+      "rotation": [
+        -0.282570958,
+        0.326190352,
+        0.102847405,
+        0.896200836
+      ],
+      "components": [
+        {
+          "type": "Light",
+          "properties": {
+            "color": [
+              1.0,
+              0.956862748,
+              0.8392157
+            ],
+            "intensity": 1.0,
+            "shadowType": "hard",
+            "shadowDarkness": 1.0,
+            "shadowBias": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "ground",
+      "scale": [
+        5.0,
+        1.0,
+        5.0
+      ],
+      "components": [
+        {
+          "type": "Model",
+          "properties": {
+            "mesh": "builtin-plane",
+            "materials": [
+              "8b944d97f7b16364389c9041622b84d7"
+            ],
+            "shadowCastingMode": "on",
+            "receiveShadows": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "skeleton",
+      "prefab": "cedb019062ee24c8aab0ae41dc5a1b09",
+      "rotation": [
+        0.0,
+        -0.9848078,
+        0.0,
+        -0.173648089
+      ],
+      "scale": [
+        10.0,
+        10.0,
+        10.0
+      ]
+    }
+  ],
+  "preloads": [
+    "8b944d97f7b16364389c9041622b84d7",
+    "dfc15c633f0d98141920018f79a042a6-0",
+    "81d4af5a5190e3d4d88c97161d881bf3-0",
+    "a749f4485b342b7469956010abf2ab25-0",
+    "a5ea117a2b123564a83a2dbd1c9ea4cf-0",
+    "6e0b4a05932877a4b89fb3fb32c3e72b-0",
+    "f57ee821486cd7b488adf1063a8dd207-0",
+    "1e768688017709245aed3bb86453c364-0",
+    "6f61bc53c41ba664fa527d3386ecfd1e-0",
+    "188f1042b5ff4644389fad5df1f98d7c-0",
+    "ed14df0368fe53543907335c0e3902c6",
+    "633ee0d17980f4ecfaedd9746d1d226a",
+    "5a35c5f0a89b9654d897ccd7c8f81bd0",
+    "cedb019062ee24c8aab0ae41dc5a1b09"
+  ],
+  "skyboxes": [
+    {
+      "camera": "Main Camera",
+      "texture": "1cde0e200e792cb4491204276a656490"
+    },
+    {
+      "camera": "TestCamera",
+      "texture": "656a59a5ff93c46498416d97e5c16b66"
+    }
+  ]
+}

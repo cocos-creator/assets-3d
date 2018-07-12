@@ -1,0 +1,23 @@
+{
+  "sprites": {
+    "dark-gray-box-128x128-measured": {
+      "texture": "ca5763a82f63c3a45905d0f889f24667",
+      "rotated": false,
+      "x": 0.0,
+      "y": 0.0,
+      "width": 128.0,
+      "height": 128.0,
+      "left": 0.0,
+      "right": 0.0,
+      "bottom": 0.0,
+      "top": 0.0
+    }
+  },
+  "type": "sprite",
+  "anisotropy": 1,
+  "minFilter": "linear",
+  "magFilter": "linear",
+  "mipFilter": "nearest",
+  "wrapS": "clamp",
+  "wrapT": "clamp"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "particle-add",
+  "properties": {
+    "tintColor": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "mainTexture": "de43593fa02083542ba3e5f901fe279c",
+    "mainTiling": [
+      1.0,
+      1.0
+    ],
+    "mainOffset": [
+      0.0,
+      0.0
+    ]
+  }
+}

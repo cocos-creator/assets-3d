@@ -1,0 +1,646 @@
+{
+  "children": [
+    0,
+    1,
+    2
+  ],
+  "entities": [
+    {
+      "name": "Main Camera",
+      "translation": [
+        18.5316315,
+        3.92281342,
+        -9.147961
+      ],
+      "rotation": [
+        0.04814642,
+        -0.860804558,
+        -0.082924,
+        -0.499820977
+      ],
+      "components": [
+        {
+          "type": "Camera",
+          "properties": {
+            "projection": "perspective",
+            "fov": 60.0,
+            "orthoHeight": 5.0,
+            "near": 0.3,
+            "far": 1000.0,
+            "priority": -1.0,
+            "color": [
+              0.192156866,
+              0.3019608,
+              0.4745098,
+              0.0
+            ],
+            "clearFlags": 3,
+            "rect": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Directional Light",
+      "translation": [
+        0.0,
+        3.0,
+        0.0
+      ],
+      "rotation": [
+        -0.408217877,
+        0.234569684,
+        0.109381631,
+        0.8754261
+      ],
+      "components": [
+        {
+          "type": "Light",
+          "properties": {
+            "color": [
+              1.0,
+              0.956862748,
+              0.8392157
+            ],
+            "intensity": 1.0,
+            "shadowType": "soft",
+            "shadowDarkness": 1.0,
+            "shadowBias": 0.05
+          }
+        }
+      ]
+    },
+    {
+      "name": "sphere",
+      "translation": [
+        6.84,
+        -0.64,
+        -1.25
+      ],
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "components": [
+        {
+          "type": "ParticleSystem",
+          "properties": {
+            "capacity": 1000,
+            "duration": 5.0,
+            "loop": true,
+            "prewarm": false,
+            "simulationSpace": "local",
+            "simulationSpeed": 1.0,
+            "playOnAwake": true,
+            "startColor": {
+              "mode": "gradient",
+              "gradient": {
+                "mode": "blend",
+                "colorKeys": [
+                  {
+                    "time": 0.0,
+                    "color": [
+                      1.0,
+                      1.0,
+                      1.0,
+                      1.0
+                    ]
+                  },
+                  {
+                    "time": 0.12059205,
+                    "color": [
+                      0.882352948,
+                      0.116782017,
+                      0.86123395,
+                      1.0
+                    ]
+                  },
+                  {
+                    "time": 0.311772346,
+                    "color": [
+                      0.7320662,
+                      0.260415524,
+                      0.121447027,
+                      1.0
+                    ]
+                  },
+                  {
+                    "time": 0.5294118,
+                    "color": [
+                      0.180309266,
+                      0.8455882,
+                      0.212426245,
+                      1.0
+                    ]
+                  },
+                  {
+                    "time": 0.7911803,
+                    "color": [
+                      0.8308824,
+                      0.5645113,
+                      0.1649546,
+                      1.0
+                    ]
+                  },
+                  {
+                    "time": 1.0,
+                    "color": [
+                      1.0,
+                      1.0,
+                      1.0,
+                      1.0
+                    ]
+                  }
+                ],
+                "alphaKeys": [
+                  {
+                    "time": 0.0,
+                    "alpha": 1.0
+                  },
+                  {
+                    "time": 1.0,
+                    "alpha": 1.0
+                  }
+                ]
+              }
+            },
+            "startSize": {
+              "mode": "constant",
+              "constant": 0.3,
+              "multiplier": 0.0
+            },
+            "startSpeed": {
+              "mode": "twoConstants",
+              "constantMin": 2.0,
+              "constantMax": 4.0,
+              "multiplier": 0.0
+            },
+            "startRotation": {
+              "mode": "twoConstants",
+              "constantMin": 0.0,
+              "constantMax": 6.283185,
+              "multiplier": 0.0
+            },
+            "startDelay": {
+              "mode": "constant",
+              "constant": 0.0,
+              "multiplier": 0.0
+            },
+            "startLifetime": {
+              "mode": "constant",
+              "constant": 5.0,
+              "multiplier": 0.0
+            },
+            "gravityModifier": {
+              "mode": "constant",
+              "constant": 0.0,
+              "multiplier": 0.0
+            },
+            "shapeModule": {
+              "enable": true,
+              "shapeType": "sphere",
+              "emitFrom": "volume",
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "alignToDirection": false,
+              "randomDirectionAmount": 0.0,
+              "sphericalDirectionAmount": 0.0,
+              "randomPositionAmount": 0.0,
+              "radius": 1.51,
+              "radiusThickness": 1.0,
+              "arc": 6.28318548,
+              "arcMode": "random",
+              "arcSpread": 0.0,
+              "arcSpeed": {
+                "mode": "constant",
+                "constant": 1.0,
+                "multiplier": 0.0
+              },
+              "angle": 0.7853982,
+              "length": 5.0,
+              "boxThickness": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            "rateOverTime": {
+              "mode": "constant",
+              "constant": 50.0,
+              "multiplier": 0.0
+            },
+            "rateOverDistance": {
+              "mode": "constant",
+              "constant": 0.0,
+              "multiplier": 0.0
+            },
+            "bursts": [],
+            "sizeOvertimeModule": {
+              "enable": false,
+              "size": {
+                "mode": "twoCurves",
+                "curveMin": {
+                  "keyFrames": [
+                    {
+                      "time": 0.0,
+                      "value": 0.0,
+                      "inTangent": 0.0,
+                      "outTangent": 0.0
+                    },
+                    {
+                      "time": 0.48163265,
+                      "value": 0.324561417,
+                      "inTangent": 0.0,
+                      "outTangent": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 0.0,
+                      "inTangent": 0.0,
+                      "outTangent": 0.0
+                    }
+                  ],
+                  "preWrapMode": "clampForever",
+                  "postWrapMode": "clampForever"
+                },
+                "curveMax": {
+                  "keyFrames": [
+                    {
+                      "time": 0.0,
+                      "value": 1.0,
+                      "inTangent": 0.0,
+                      "outTangent": 0.0
+                    },
+                    {
+                      "time": 0.7714286,
+                      "value": 0.684210539,
+                      "inTangent": 0.0,
+                      "outTangent": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 1.0,
+                      "inTangent": 0.0,
+                      "outTangent": 0.0
+                    }
+                  ],
+                  "preWrapMode": "clampForever",
+                  "postWrapMode": "clampForever"
+                },
+                "multiplier": 1.0
+              },
+              "separateAxes": false,
+              "x": {
+                "mode": "twoCurves",
+                "curveMin": {
+                  "keyFrames": [
+                    {
+                      "time": 0.0,
+                      "value": 0.0,
+                      "inTangent": 0.0,
+                      "outTangent": 0.0
+                    },
+                    {
+                      "time": 0.48163265,
+                      "value": 0.324561417,
+                      "inTangent": 0.0,
+                      "outTangent": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 0.0,
+                      "inTangent": 0.0,
+                      "outTangent": 0.0
+                    }
+                  ],
+                  "preWrapMode": "clampForever",
+                  "postWrapMode": "clampForever"
+                },
+                "curveMax": {
+                  "keyFrames": [
+                    {
+                      "time": 0.0,
+                      "value": 1.0,
+                      "inTangent": 0.0,
+                      "outTangent": 0.0
+                    },
+                    {
+                      "time": 0.7714286,
+                      "value": 0.684210539,
+                      "inTangent": 0.0,
+                      "outTangent": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 1.0,
+                      "inTangent": 0.0,
+                      "outTangent": 0.0
+                    }
+                  ],
+                  "preWrapMode": "clampForever",
+                  "postWrapMode": "clampForever"
+                },
+                "multiplier": 1.0
+              },
+              "y": {
+                "mode": "twoCurves",
+                "curveMin": {
+                  "keyFrames": [
+                    {
+                      "time": 0.0,
+                      "value": 0.0,
+                      "inTangent": 0.0,
+                      "outTangent": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 0.0,
+                      "inTangent": 0.0,
+                      "outTangent": 0.0
+                    }
+                  ],
+                  "preWrapMode": "clampForever",
+                  "postWrapMode": "clampForever"
+                },
+                "curveMax": {
+                  "keyFrames": [
+                    {
+                      "time": 0.0,
+                      "value": 1.0,
+                      "inTangent": 0.0,
+                      "outTangent": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 1.0,
+                      "inTangent": 0.0,
+                      "outTangent": 0.0
+                    }
+                  ],
+                  "preWrapMode": "clampForever",
+                  "postWrapMode": "clampForever"
+                },
+                "multiplier": 1.0
+              },
+              "z": {
+                "mode": "twoCurves",
+                "curveMin": {
+                  "keyFrames": [
+                    {
+                      "time": 0.0,
+                      "value": 0.0,
+                      "inTangent": 0.0,
+                      "outTangent": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 0.0,
+                      "inTangent": 0.0,
+                      "outTangent": 0.0
+                    }
+                  ],
+                  "preWrapMode": "clampForever",
+                  "postWrapMode": "clampForever"
+                },
+                "curveMax": {
+                  "keyFrames": [
+                    {
+                      "time": 0.0,
+                      "value": 1.0,
+                      "inTangent": 0.0,
+                      "outTangent": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 1.0,
+                      "inTangent": 0.0,
+                      "outTangent": 0.0
+                    }
+                  ],
+                  "preWrapMode": "clampForever",
+                  "postWrapMode": "clampForever"
+                },
+                "multiplier": 1.0
+              }
+            },
+            "colorOverLifetimeModule": {
+              "enable": true,
+              "color": {
+                "mode": "gradient",
+                "gradient": {
+                  "mode": "blend",
+                  "colorKeys": [
+                    {
+                      "time": 0.0,
+                      "color": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ]
+                    },
+                    {
+                      "time": 1.0,
+                      "color": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ]
+                    }
+                  ],
+                  "alphaKeys": [
+                    {
+                      "time": 0.0,
+                      "alpha": 0.0
+                    },
+                    {
+                      "time": 0.210528731,
+                      "alpha": 1.0
+                    },
+                    {
+                      "time": 0.6695964,
+                      "alpha": 1.0
+                    },
+                    {
+                      "time": 1.0,
+                      "alpha": 0.0
+                    }
+                  ]
+                }
+              }
+            },
+            "forceOvertimeModule": {
+              "enable": false,
+              "x": {
+                "mode": "constant",
+                "constant": 0.0,
+                "multiplier": 0.0
+              },
+              "y": {
+                "mode": "constant",
+                "constant": 0.0,
+                "multiplier": 0.0
+              },
+              "z": {
+                "mode": "constant",
+                "constant": 0.0,
+                "multiplier": 0.0
+              },
+              "space": "local",
+              "randomized": false
+            },
+            "velocityOvertimeModule": {
+              "enable": false,
+              "x": {
+                "mode": "constant",
+                "constant": 0.0,
+                "multiplier": 0.0
+              },
+              "y": {
+                "mode": "constant",
+                "constant": 0.0,
+                "multiplier": 0.0
+              },
+              "z": {
+                "mode": "constant",
+                "constant": 0.0,
+                "multiplier": 0.0
+              },
+              "speedModifier": {
+                "mode": "constant",
+                "constant": 1.0,
+                "multiplier": 0.0
+              },
+              "space": "local"
+            },
+            "limitVelocityOvertimeModule": {
+              "enable": false,
+              "limitX": {
+                "mode": "constant",
+                "constant": 1.0,
+                "multiplier": 0.0
+              },
+              "limitY": {
+                "mode": "constant",
+                "constant": 1.0,
+                "multiplier": 0.0
+              },
+              "limitZ": {
+                "mode": "constant",
+                "constant": 1.0,
+                "multiplier": 0.0
+              },
+              "limit": {
+                "mode": "constant",
+                "constant": 1.0,
+                "multiplier": 0.0
+              },
+              "dampen": 1.0,
+              "separateAxes": false,
+              "space": "local",
+              "drag": {
+                "mode": "constant",
+                "constant": 0.0,
+                "multiplier": 0.0
+              },
+              "multiplyDragByParticleSize": true,
+              "multiplyDragByParticleVelocity": true
+            },
+            "rotationOvertimeModule": {
+              "enable": false,
+              "separateAxes": false,
+              "x": {
+                "mode": "twoConstants",
+                "constantMin": 0.0,
+                "constantMax": 0.0,
+                "multiplier": 0.0
+              },
+              "y": {
+                "mode": "twoConstants",
+                "constantMin": 0.0,
+                "constantMax": 0.0,
+                "multiplier": 0.0
+              },
+              "z": {
+                "mode": "twoConstants",
+                "constantMin": 1.04719758,
+                "constantMax": -1.04719758,
+                "multiplier": 0.0
+              }
+            },
+            "textureAnimationModule": {
+              "enable": false,
+              "mode": "grid",
+              "numTilesX": 1,
+              "numTilesY": 4,
+              "animation": "singleRow",
+              "frameOverTime": {
+                "mode": "curve",
+                "curve": {
+                  "keyFrames": [
+                    {
+                      "time": 0.0,
+                      "value": 0.0,
+                      "inTangent": 0.0,
+                      "outTangent": 1.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 1.0,
+                      "inTangent": 1.0,
+                      "outTangent": 0.0
+                    }
+                  ],
+                  "preWrapMode": "clampForever",
+                  "postWrapMode": "clampForever"
+                },
+                "multiplier": 0.9999
+              },
+              "startFrame": {
+                "mode": "constant",
+                "constant": 0.0,
+                "multiplier": 0.0
+              },
+              "cycleCount": 1,
+              "flipU": 0.0,
+              "flipV": 0.0,
+              "randomRow": true,
+              "rowIndex": 0
+            },
+            "renderer": {
+              "material": "a86cb9fb15968444b88536ea4b37acc2",
+              "renderMode": "billboard",
+              "lengthScale": 2.0,
+              "velocityScale": 0.0
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "preloads": [
+    "a86cb9fb15968444b88536ea4b37acc2"
+  ],
+  "skyboxes": []
+}

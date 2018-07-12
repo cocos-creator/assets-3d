@@ -1,0 +1,169 @@
+{
+  "entities": [
+    {
+      "name": "Prefab_DragonMain",
+      "children": [
+        1,
+        2,
+        5,
+        6
+      ]
+    },
+    {
+      "name": "chain.003",
+      "translation": [
+        1.50591147,
+        1.56888962,
+        -4.169568
+      ],
+      "rotation": [
+        -0.572209,
+        -0.3149807,
+        0.6964989,
+        -0.2970747
+      ],
+      "scale": [
+        100.000008,
+        100.0,
+        100.0
+      ],
+      "components": [
+        {
+          "type": "Model",
+          "properties": {
+            "mesh": "m0@1ff3e8831784841ae98845a703100b33",
+            "materials": [
+              "f052902d14f724605a4ee321f4e0feb0"
+            ],
+            "shadowCastingMode": "on",
+            "receiveShadows": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "Plane.001",
+      "translation": [
+        -0.0297112744,
+        0.351769865,
+        -0.09657595
+      ],
+      "rotation": [
+        0.716320157,
+        0.002707211,
+        0.000311392418,
+        0.6977664
+      ],
+      "scale": [
+        100.000008,
+        99.9999847,
+        100.000008
+      ],
+      "children": [
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Plane.001_MeshPart0",
+      "components": [
+        {
+          "type": "Model",
+          "properties": {
+            "mesh": "m1@1ff3e8831784841ae98845a703100b33",
+            "materials": [
+              "f052902d14f724605a4ee321f4e0feb0"
+            ],
+            "shadowCastingMode": "on",
+            "receiveShadows": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "Plane.001_MeshPart1",
+      "components": [
+        {
+          "type": "Model",
+          "properties": {
+            "mesh": "m2@1ff3e8831784841ae98845a703100b33",
+            "materials": [
+              "f052902d14f724605a4ee321f4e0feb0"
+            ],
+            "shadowCastingMode": "on",
+            "receiveShadows": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "Spark2D.118",
+      "translation": [
+        3.04838181,
+        2.01102376,
+        -0.0147047779
+      ],
+      "rotation": [
+        -0.8869625,
+        0.04207893,
+        0.0230761357,
+        0.459341317
+      ],
+      "scale": [
+        12.88674,
+        12.88674,
+        12.8867407
+      ],
+      "components": [
+        {
+          "type": "Model",
+          "properties": {
+            "mesh": "m3@1ff3e8831784841ae98845a703100b33",
+            "materials": [
+              "f052902d14f724605a4ee321f4e0feb0"
+            ],
+            "shadowCastingMode": "on",
+            "receiveShadows": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sphere",
+      "translation": [
+        0.0254343618,
+        0.358259648,
+        -0.08112442
+      ],
+      "rotation": [
+        0.709171236,
+        0.0442189239,
+        -0.0245921072,
+        0.703218341
+      ],
+      "scale": [
+        7.47748041,
+        7.47748137,
+        7.477481
+      ],
+      "components": [
+        {
+          "type": "Model",
+          "properties": {
+            "mesh": "m4@1ff3e8831784841ae98845a703100b33",
+            "materials": [
+              "f052902d14f724605a4ee321f4e0feb0"
+            ],
+            "shadowCastingMode": "on",
+            "receiveShadows": true
+          }
+        }
+      ]
+    }
+  ],
+  "preloads": [
+    "f052902d14f724605a4ee321f4e0feb0",
+    "cae44471c0e978742985c5d5402fe9da",
+    "1ff3e8831784841ae98845a703100b33"
+  ]
+}

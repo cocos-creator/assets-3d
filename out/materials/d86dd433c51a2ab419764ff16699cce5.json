@@ -1,0 +1,14 @@
+{
+  "type": "particle-add-smooth",
+  "properties": {
+    "mainTexture": "cea6ee660331db9408688c0da6e305ba",
+    "mainTiling": [
+      1.0,
+      1.0
+    ],
+    "mainOffset": [
+      0.0,
+      0.0
+    ]
+  }
+}

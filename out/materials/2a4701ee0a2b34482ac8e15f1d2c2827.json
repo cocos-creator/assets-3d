@@ -1,0 +1,20 @@
+{
+  "type": "unlit",
+  "properties": {
+    "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "mainTexture": "a90908fde9083405c8479274f913757d",
+    "mainTiling": [
+      1.0,
+      1.0
+    ],
+    "mainOffset": [
+      0.0,
+      0.0
+    ]
+  }
+}

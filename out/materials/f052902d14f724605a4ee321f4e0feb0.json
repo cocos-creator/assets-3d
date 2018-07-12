@@ -1,0 +1,32 @@
+{
+  "type": "matcap",
+  "properties": {
+    "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "mainTex": null,
+    "mainTiling": [
+      1.0,
+      1.0
+    ],
+    "mainOffset": [
+      0.0,
+      0.0
+    ],
+    "matcapTex": "cae44471c0e978742985c5d5402fe9da",
+    "matcapTiling": [
+      1.0,
+      1.0
+    ],
+    "matcapOffset": [
+      0.0,
+      0.0
+    ],
+    "colorFactor": [
+      0.0
+    ]
+  }
+}

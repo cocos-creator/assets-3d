@@ -1,0 +1,96 @@
+{
+  "children": [
+    0,
+    1,
+    2
+  ],
+  "entities": [
+    {
+      "name": "Main Camera",
+      "translation": [
+        -19.6210251,
+        1.2400589,
+        -10.7081242
+      ],
+      "rotation": [
+        -0.0717569441,
+        -0.7834351,
+        -0.09209335,
+        0.610409
+      ],
+      "components": [
+        {
+          "type": "Camera",
+          "properties": {
+            "projection": "perspective",
+            "fov": 60.0,
+            "orthoHeight": 5.0,
+            "near": 0.3,
+            "far": 1000.0,
+            "priority": -1.0,
+            "color": [
+              0.192156866,
+              0.3019608,
+              0.4745098,
+              0.0
+            ],
+            "clearFlags": 3,
+            "rect": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Directional Light",
+      "translation": [
+        0.0,
+        3.0,
+        0.0
+      ],
+      "rotation": [
+        -0.408217877,
+        0.234569684,
+        0.109381631,
+        0.8754261
+      ],
+      "components": [
+        {
+          "type": "Light",
+          "properties": {
+            "color": [
+              1.0,
+              0.956862748,
+              0.8392157
+            ],
+            "intensity": 1.0,
+            "shadowType": "soft",
+            "shadowDarkness": 1.0,
+            "shadowBias": 0.05
+          }
+        }
+      ]
+    },
+    {
+      "name": "rain",
+      "prefab": "914758725e67fcd4ca7392acce902d26",
+      "translation": [
+        -1.72,
+        -4.47,
+        -3.45
+      ]
+    }
+  ],
+  "preloads": [
+    "1de3d20a553c9424285cb1d5fc960ba2",
+    "1154503d374ad1548960eba936529033",
+    "ef08fa9a712edef449ba0bb3c27408e5",
+    "07e3ce2075a90cf4a970e325d6cfcadc",
+    "914758725e67fcd4ca7392acce902d26"
+  ],
+  "skyboxes": []
+}

@@ -1,0 +1,71 @@
+{
+  "entities": [
+    {
+      "name": "sample-pot",
+      "children": [
+        1,
+        3
+      ]
+    },
+    {
+      "name": "SamplePotBody",
+      "components": [
+        {
+          "type": "Model",
+          "properties": {
+            "mesh": "m0@73825ba8bfe6b4e2facea00a4af09df0",
+            "materials": [
+              "142c97774cb704aa09be2e7a444fdfd8"
+            ],
+            "shadowCastingMode": "on",
+            "receiveShadows": true
+          }
+        }
+      ],
+      "children": [
+        2
+      ]
+    },
+    {
+      "name": "SamplePotLabel",
+      "components": [
+        {
+          "type": "Model",
+          "properties": {
+            "mesh": "m1@73825ba8bfe6b4e2facea00a4af09df0",
+            "materials": [
+              "ad1911dbb7e0d4ffe9126d6a7316b5e2"
+            ],
+            "shadowCastingMode": "on",
+            "receiveShadows": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "SamplePotLid",
+      "components": [
+        {
+          "type": "Model",
+          "properties": {
+            "mesh": "m2@73825ba8bfe6b4e2facea00a4af09df0",
+            "materials": [
+              "c9e2f8f2ea47b42e4a247701a8f17a1e",
+              "007f460a76c4e48f2b779891849a5b93"
+            ],
+            "shadowCastingMode": "on",
+            "receiveShadows": true
+          }
+        }
+      ]
+    }
+  ],
+  "preloads": [
+    "142c97774cb704aa09be2e7a444fdfd8",
+    "c7318b5d7643e420f966792473036625",
+    "73825ba8bfe6b4e2facea00a4af09df0",
+    "ad1911dbb7e0d4ffe9126d6a7316b5e2",
+    "c9e2f8f2ea47b42e4a247701a8f17a1e",
+    "007f460a76c4e48f2b779891849a5b93"
+  ]
+}

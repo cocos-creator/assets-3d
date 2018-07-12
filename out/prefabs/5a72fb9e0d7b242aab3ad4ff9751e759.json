@@ -1,0 +1,113 @@
+{
+  "entities": [
+    {
+      "name": "perfab-with-children",
+      "children": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "ramp_2x2x1",
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "components": [
+        {
+          "type": "Model",
+          "properties": {
+            "mesh": "m0@c265b423c34dc40918d9cb3b72b86a10",
+            "materials": [
+              "bf8102a39070c40539457dd742b7d7ac"
+            ],
+            "shadowCastingMode": "on",
+            "receiveShadows": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "wall_2x4",
+      "translation": [
+        -2.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.5,
+        -0.5,
+        0.5,
+        0.5
+      ],
+      "components": [
+        {
+          "type": "Model",
+          "properties": {
+            "mesh": "m0@8d155f6951d1e46dc9fd17ae06aa9508",
+            "materials": [
+              "bf8102a39070c40539457dd742b7d7ac"
+            ],
+            "shadowCastingMode": "on",
+            "receiveShadows": true
+          }
+        }
+      ],
+      "children": [
+        3
+      ]
+    },
+    {
+      "name": "anchor",
+      "translation": [
+        1.95,
+        -0.0499999523,
+        0.0
+      ],
+      "rotation": [
+        -0.5,
+        0.5,
+        -0.5,
+        0.5
+      ],
+      "children": [
+        4
+      ]
+    },
+    {
+      "name": "wall_2x4 (1)",
+      "translation": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "components": [
+        {
+          "type": "Model",
+          "properties": {
+            "mesh": "m0@8d155f6951d1e46dc9fd17ae06aa9508",
+            "materials": [
+              "bf8102a39070c40539457dd742b7d7ac"
+            ],
+            "shadowCastingMode": "on",
+            "receiveShadows": true
+          }
+        }
+      ]
+    }
+  ],
+  "preloads": [
+    "bf8102a39070c40539457dd742b7d7ac",
+    "0bea3f15f960c4a329b34c300228f638",
+    "c265b423c34dc40918d9cb3b72b86a10",
+    "8d155f6951d1e46dc9fd17ae06aa9508"
+  ]
+}

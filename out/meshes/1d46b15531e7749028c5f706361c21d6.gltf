@@ -1,0 +1,132 @@
+{
+  "asset": {
+    "generator": "u3d-exporter",
+    "version": "1.0.0"
+  },
+  "accessors": [
+    {
+      "name": "position@SM_Block_2x2x2",
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 54,
+      "type": "VEC3",
+      "min": [
+        -1.0,
+        -1.0,
+        -2.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "normal@SM_Block_2x2x2",
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 54,
+      "type": "VEC3",
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "tangent@SM_Block_2x2x2",
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 54,
+      "type": "VEC4",
+      "min": [
+        -1.0,
+        -1.0,
+        0.0,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "uv0@SM_Block_2x2x2",
+      "bufferView": 0,
+      "byteOffset": 40,
+      "componentType": 5126,
+      "count": 54,
+      "type": "VEC2"
+    },
+    {
+      "name": "indices0@SM_Block_2x2x2",
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 144,
+      "type": "SCALAR"
+    }
+  ],
+  "buffers": [
+    {
+      "name": "Block_2x2x2",
+      "uri": "1d46b15531e7749028c5f706361c21d6.bin",
+      "byteLength": 2880
+    }
+  ],
+  "bufferViews": [
+    {
+      "name": "vb@SM_Block_2x2x2",
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 2592,
+      "byteStride": 48,
+      "target": 34962
+    },
+    {
+      "name": "ib0@SM_Block_2x2x2",
+      "buffer": 0,
+      "byteOffset": 2592,
+      "byteLength": 288,
+      "target": 34963
+    }
+  ],
+  "meshes": [
+    {
+      "name": "SM_Block_2x2x2",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Block_2x2x2",
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "mesh": 0
+    }
+  ]
+}

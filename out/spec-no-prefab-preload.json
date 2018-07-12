@@ -1,0 +1,266 @@
+{
+  "children": [
+    0,
+    1,
+    2,
+    6,
+    7
+  ],
+  "entities": [
+    {
+      "name": "Main Camera",
+      "translation": [
+        0.0,
+        1.33,
+        4.89
+      ],
+      "components": [
+        {
+          "type": "Camera",
+          "properties": {
+            "projection": "perspective",
+            "fov": 60.0,
+            "orthoHeight": 5.0,
+            "near": 0.3,
+            "far": 1000.0,
+            "priority": -1.0,
+            "color": [
+              0.192156866,
+              0.3019608,
+              0.4745098,
+              0.0
+            ],
+            "clearFlags": 11,
+            "rect": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Directional Light",
+      "translation": [
+        0.0,
+        3.0,
+        0.0
+      ],
+      "rotation": [
+        -0.408217877,
+        0.234569684,
+        0.109381631,
+        0.8754261
+      ],
+      "components": [
+        {
+          "type": "Light",
+          "properties": {
+            "color": [
+              1.0,
+              0.956862748,
+              0.8392157
+            ],
+            "intensity": 1.0,
+            "shadowType": "soft",
+            "shadowDarkness": 1.0,
+            "shadowBias": 0.05
+          }
+        }
+      ]
+    },
+    {
+      "name": "Canvas",
+      "components": [
+        {
+          "type": "ScreenScaler",
+          "properties": {
+            "scaleFactor": 1.0,
+            "adaptionMode": "none"
+          }
+        },
+        {
+          "type": "Screen",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 0.0,
+            "anchorBottom": 0.0,
+            "anchorTop": 0.0,
+            "offsetX": 274.0,
+            "offsetY": 323.0,
+            "sizeX": 548.0,
+            "sizeY": 646.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "priority": 0
+          }
+        }
+      ],
+      "children": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "Image",
+      "translation": [
+        -390.0,
+        214.0,
+        0.0
+      ],
+      "components": [
+        {
+          "type": "Image",
+          "properties": {
+            "anchorLeft": 0.5,
+            "anchorRight": 0.5,
+            "anchorBottom": 0.5,
+            "anchorTop": 0.5,
+            "offsetX": -390.0,
+            "offsetY": 214.0,
+            "sizeX": 100.0,
+            "sizeY": 100.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "type": "simple",
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "sprite": "box-64x64@e6a6869576f6d374e8bafc0cb89b7bfb"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Text",
+      "translation": [
+        -353.3,
+        237.8,
+        0.0
+      ],
+      "components": [
+        {
+          "type": "Text",
+          "properties": {
+            "anchorLeft": 0.5,
+            "anchorRight": 0.5,
+            "anchorBottom": 0.5,
+            "anchorTop": 0.5,
+            "offsetX": -353.3,
+            "offsetY": 237.8,
+            "sizeX": 160.0,
+            "sizeY": 30.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "font": "f6b4fc4fdfefb5b42aecf73690adb984",
+            "fontFamily": null,
+            "text": "foo",
+            "fontSize": 14,
+            "align": "top-left",
+            "color": [
+              0.196078435,
+              0.196078435,
+              0.196078435,
+              1.0
+            ],
+            "italic": false,
+            "bold": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "Text (1)",
+      "translation": [
+        -353.3,
+        191.3,
+        0.0
+      ],
+      "components": [
+        {
+          "type": "Text",
+          "properties": {
+            "anchorLeft": 0.5,
+            "anchorRight": 0.5,
+            "anchorBottom": 0.5,
+            "anchorTop": 0.5,
+            "offsetX": -353.3,
+            "offsetY": 191.3,
+            "sizeX": 160.0,
+            "sizeY": 30.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "font": "ac191778a5559454cb8efa9214bfa625",
+            "fontFamily": null,
+            "text": "bar",
+            "fontSize": 16,
+            "align": "top-left",
+            "color": [
+              0.196078435,
+              0.196078435,
+              0.196078435,
+              1.0
+            ],
+            "italic": false,
+            "bold": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "Plane",
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "components": [
+        {
+          "type": "Model",
+          "properties": {
+            "mesh": "m0@f75051938c307468eb1105b09008a72a",
+            "materials": [
+              "bf8102a39070c40539457dd742b7d7ac"
+            ],
+            "shadowCastingMode": "on",
+            "receiveShadows": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cube",
+      "components": [
+        {
+          "type": "Model",
+          "properties": {
+            "mesh": "0d16cbf456469664bbaaf800ae62c25e",
+            "materials": [
+              "acb58da92fa054c20a041895e0fd2e3b"
+            ],
+            "shadowCastingMode": "on",
+            "receiveShadows": true
+          }
+        }
+      ]
+    }
+  ],
+  "preloads": [
+    "box-64x64@e6a6869576f6d374e8bafc0cb89b7bfb",
+    "f6b4fc4fdfefb5b42aecf73690adb984",
+    "cef3086250d642b4aada4bec015cacce",
+    "ac191778a5559454cb8efa9214bfa625",
+    "bf8102a39070c40539457dd742b7d7ac",
+    "f75051938c307468eb1105b09008a72a",
+    "acb58da92fa054c20a041895e0fd2e3b",
+    "0d16cbf456469664bbaaf800ae62c25e"
+  ],
+  "skyboxes": []
+}

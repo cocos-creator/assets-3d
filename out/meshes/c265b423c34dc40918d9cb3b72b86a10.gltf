@@ -1,0 +1,132 @@
+{
+  "asset": {
+    "generator": "u3d-exporter",
+    "version": "1.0.0"
+  },
+  "accessors": [
+    {
+      "name": "position@SM_Ramp_2x2x1",
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 18,
+      "type": "VEC3",
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "normal@SM_Ramp_2x2x1",
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 18,
+      "type": "VEC3",
+      "min": [
+        -1.0,
+        -1.0,
+        -0.8944272
+      ],
+      "max": [
+        0.4472136,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "tangent@SM_Ramp_2x2x1",
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 18,
+      "type": "VEC4",
+      "min": [
+        -1.0,
+        0.0,
+        -0.4472136,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "uv0@SM_Ramp_2x2x1",
+      "bufferView": 0,
+      "byteOffset": 40,
+      "componentType": 5126,
+      "count": 18,
+      "type": "VEC2"
+    },
+    {
+      "name": "indices0@SM_Ramp_2x2x1",
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 24,
+      "type": "SCALAR"
+    }
+  ],
+  "buffers": [
+    {
+      "name": "Ramp_2x2x1",
+      "uri": "c265b423c34dc40918d9cb3b72b86a10.bin",
+      "byteLength": 912
+    }
+  ],
+  "bufferViews": [
+    {
+      "name": "vb@SM_Ramp_2x2x1",
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 864,
+      "byteStride": 48,
+      "target": 34962
+    },
+    {
+      "name": "ib0@SM_Ramp_2x2x1",
+      "buffer": 0,
+      "byteOffset": 864,
+      "byteLength": 48,
+      "target": 34963
+    }
+  ],
+  "meshes": [
+    {
+      "name": "SM_Ramp_2x2x1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Ramp_2x2x1",
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "mesh": 0
+    }
+  ]
+}

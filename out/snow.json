@@ -1,0 +1,100 @@
+{
+  "children": [
+    0,
+    1,
+    2
+  ],
+  "entities": [
+    {
+      "name": "Main Camera",
+      "translation": [
+        -110.572174,
+        -1.07136488,
+        -55.9810066
+      ],
+      "rotation": [
+        0.0344607,
+        0.7952113,
+        0.04538883,
+        -0.6036483
+      ],
+      "components": [
+        {
+          "type": "Camera",
+          "properties": {
+            "projection": "perspective",
+            "fov": 60.0,
+            "orthoHeight": 5.0,
+            "near": 0.3,
+            "far": 1000.0,
+            "priority": -1.0,
+            "color": [
+              0.192156866,
+              0.3019608,
+              0.4745098,
+              0.0
+            ],
+            "clearFlags": 3,
+            "rect": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Directional Light",
+      "translation": [
+        0.0,
+        3.0,
+        0.0
+      ],
+      "rotation": [
+        -0.408217877,
+        0.234569684,
+        0.109381631,
+        0.8754261
+      ],
+      "components": [
+        {
+          "type": "Light",
+          "properties": {
+            "color": [
+              1.0,
+              0.956862748,
+              0.8392157
+            ],
+            "intensity": 1.0,
+            "shadowType": "soft",
+            "shadowDarkness": 1.0,
+            "shadowBias": 0.05
+          }
+        }
+      ]
+    },
+    {
+      "name": "Snow",
+      "prefab": "0efa83a319a5c22498ecfdab95c17ae6",
+      "translation": [
+        -57.3,
+        52.1,
+        -37.2
+      ],
+      "rotation": [
+        -0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ]
+    }
+  ],
+  "preloads": [
+    "e2d0a96bb0f72fc4f982fdb292693eb6",
+    "c0b888c142580014b835bce44143d0a3",
+    "0efa83a319a5c22498ecfdab95c17ae6"
+  ],
+  "skyboxes": []
+}

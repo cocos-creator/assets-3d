@@ -1,0 +1,36 @@
+{
+  "entities": [
+    {
+      "name": "block_4x4x1",
+      "translation": [
+        -3.20647144,
+        -0.45,
+        6.59387875
+      ],
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "components": [
+        {
+          "type": "Model",
+          "properties": {
+            "mesh": "m0@cce31d0ca283e4e31a5c9a88553d1998",
+            "materials": [
+              "bf8102a39070c40539457dd742b7d7ac"
+            ],
+            "shadowCastingMode": "on",
+            "receiveShadows": true
+          }
+        }
+      ]
+    }
+  ],
+  "preloads": [
+    "bf8102a39070c40539457dd742b7d7ac",
+    "0bea3f15f960c4a329b34c300228f638",
+    "cce31d0ca283e4e31a5c9a88553d1998"
+  ]
+}

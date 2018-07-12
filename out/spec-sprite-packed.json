@@ -1,0 +1,170 @@
+{
+  "children": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "entities": [
+    {
+      "name": "Main Camera",
+      "translation": [
+        0.0,
+        0.0,
+        10.0
+      ],
+      "components": [
+        {
+          "type": "Camera",
+          "properties": {
+            "projection": "perspective",
+            "fov": 60.0,
+            "orthoHeight": 5.0,
+            "near": 0.3,
+            "far": 1000.0,
+            "priority": -1.0,
+            "color": [
+              0.192156866,
+              0.3019608,
+              0.4745098,
+              0.0
+            ],
+            "clearFlags": 11,
+            "rect": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "angle-32x32"
+    },
+    {
+      "name": "angle-64x64",
+      "translation": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "angle-128x128",
+      "translation": [
+        2.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "box-32x32",
+      "translation": [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "box-64x64",
+      "translation": [
+        -2.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "box-64x64-measured",
+      "translation": [
+        -3.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "box-128x128",
+      "translation": [
+        0.0,
+        -3.0,
+        0.0
+      ]
+    },
+    {
+      "name": "box-128x128-measured",
+      "translation": [
+        2.0,
+        -3.0,
+        0.0
+      ]
+    },
+    {
+      "name": "rect-32x64",
+      "translation": [
+        1.0,
+        2.0,
+        0.0
+      ]
+    },
+    {
+      "name": "rect-32x128",
+      "translation": [
+        2.0,
+        2.0,
+        0.0
+      ]
+    },
+    {
+      "name": "rect-64x128",
+      "translation": [
+        -1.0,
+        2.0,
+        0.0
+      ]
+    },
+    {
+      "name": "trimmed-box-64x64",
+      "translation": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "trimmed-box-128x128",
+      "translation": [
+        -2.0,
+        -2.0,
+        0.0
+      ]
+    }
+  ],
+  "preloads": [
+    "builtin-sprites-default",
+    "angle-32x32@e6a6869576f6d374e8bafc0cb89b7bfb",
+    "angle-64x64@e6a6869576f6d374e8bafc0cb89b7bfb",
+    "angle-128x128@e6a6869576f6d374e8bafc0cb89b7bfb",
+    "box-32x32@e6a6869576f6d374e8bafc0cb89b7bfb",
+    "box-64x64@e6a6869576f6d374e8bafc0cb89b7bfb",
+    "box-64x64-measured@e6a6869576f6d374e8bafc0cb89b7bfb",
+    "box-128x128@e6a6869576f6d374e8bafc0cb89b7bfb",
+    "box-128x128-measured@e6a6869576f6d374e8bafc0cb89b7bfb",
+    "rect-32x64@e6a6869576f6d374e8bafc0cb89b7bfb",
+    "rect-32x128@e6a6869576f6d374e8bafc0cb89b7bfb",
+    "rect-64x128@e6a6869576f6d374e8bafc0cb89b7bfb",
+    "trimmed-box-64x64@e6a6869576f6d374e8bafc0cb89b7bfb",
+    "trimmed-box-128x128@e6a6869576f6d374e8bafc0cb89b7bfb"
+  ],
+  "skyboxes": []
+}

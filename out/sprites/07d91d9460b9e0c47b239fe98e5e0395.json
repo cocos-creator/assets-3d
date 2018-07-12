@@ -1,0 +1,23 @@
+{
+  "sprites": {
+    "rect-ry8": {
+      "texture": "07d91d9460b9e0c47b239fe98e5e0395",
+      "rotated": false,
+      "x": 0.0,
+      "y": 0.0,
+      "width": 138.0,
+      "height": 50.0,
+      "left": 9.0,
+      "right": 9.0,
+      "bottom": 9.0,
+      "top": 9.0
+    }
+  },
+  "type": "sprite",
+  "anisotropy": 16,
+  "minFilter": "linear",
+  "magFilter": "linear",
+  "mipFilter": "nearest",
+  "wrapS": "clamp",
+  "wrapT": "clamp"
+}

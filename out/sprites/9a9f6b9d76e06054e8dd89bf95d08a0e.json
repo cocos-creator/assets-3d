@@ -1,0 +1,23 @@
+{
+  "sprites": {
+    "round-rect-2px": {
+      "texture": "9a9f6b9d76e06054e8dd89bf95d08a0e",
+      "rotated": false,
+      "x": 0.0,
+      "y": 0.0,
+      "width": 132.0,
+      "height": 50.0,
+      "left": 25.0,
+      "right": 25.0,
+      "bottom": 25.0,
+      "top": 25.0
+    }
+  },
+  "type": "sprite",
+  "anisotropy": 16,
+  "minFilter": "linear",
+  "magFilter": "linear",
+  "mipFilter": "nearest",
+  "wrapS": "clamp",
+  "wrapT": "clamp"
+}

@@ -1,0 +1,137 @@
+{
+  "entities": [
+    {
+      "name": "Cube",
+      "translation": [
+        0.105642781,
+        -0.113148175,
+        0.219512135
+      ],
+      "components": [
+        {
+          "type": "Model",
+          "properties": {
+            "mesh": "builtin-cube",
+            "materials": [
+              "builtin-default-material"
+            ],
+            "shadowCastingMode": "on",
+            "receiveShadows": true
+          }
+        }
+      ],
+      "children": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "A",
+      "components": [
+        {
+          "type": "Model",
+          "properties": {
+            "mesh": "builtin-cube",
+            "materials": [
+              "builtin-default-material"
+            ],
+            "shadowCastingMode": "on",
+            "receiveShadows": true
+          }
+        }
+      ],
+      "children": [
+        2,
+        3
+      ]
+    },
+    {
+      "name": "A-01",
+      "components": [
+        {
+          "type": "Model",
+          "properties": {
+            "mesh": "builtin-cube",
+            "materials": [
+              "builtin-default-material"
+            ],
+            "shadowCastingMode": "on",
+            "receiveShadows": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "A-02",
+      "components": [
+        {
+          "type": "Model",
+          "properties": {
+            "mesh": "builtin-cube",
+            "materials": [
+              "builtin-default-material"
+            ],
+            "shadowCastingMode": "on",
+            "receiveShadows": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "B",
+      "enabled": false,
+      "components": [
+        {
+          "type": "Model",
+          "properties": {
+            "mesh": "builtin-cube",
+            "materials": [
+              "builtin-default-material"
+            ],
+            "shadowCastingMode": "on",
+            "receiveShadows": true
+          }
+        }
+      ],
+      "children": [
+        5,
+        6
+      ]
+    },
+    {
+      "name": "B-01",
+      "components": [
+        {
+          "type": "Model",
+          "properties": {
+            "mesh": "builtin-cube",
+            "materials": [
+              "builtin-default-material"
+            ],
+            "shadowCastingMode": "on",
+            "receiveShadows": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "B-02",
+      "components": [
+        {
+          "type": "Model",
+          "properties": {
+            "mesh": "builtin-cube",
+            "materials": [
+              "builtin-default-material"
+            ],
+            "shadowCastingMode": "on",
+            "receiveShadows": true
+          }
+        }
+      ]
+    }
+  ],
+  "preloads": [
+    "builtin-default-material"
+  ]
+}

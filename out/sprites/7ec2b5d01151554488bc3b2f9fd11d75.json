@@ -1,0 +1,23 @@
+{
+  "sprites": {
+    "dark-gray-rect-64x128": {
+      "texture": "7ec2b5d01151554488bc3b2f9fd11d75",
+      "rotated": false,
+      "x": 0.0,
+      "y": 0.0,
+      "width": 64.0,
+      "height": 128.0,
+      "left": 0.0,
+      "right": 0.0,
+      "bottom": 0.0,
+      "top": 0.0
+    }
+  },
+  "type": "sprite",
+  "anisotropy": 1,
+  "minFilter": "linear",
+  "magFilter": "linear",
+  "mipFilter": "nearest",
+  "wrapS": "clamp",
+  "wrapT": "clamp"
+}

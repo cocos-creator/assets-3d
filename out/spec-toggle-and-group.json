@@ -1,0 +1,888 @@
+{
+  "children": [
+    0,
+    1,
+    22
+  ],
+  "entities": [
+    {
+      "name": "Main Camera",
+      "translation": [
+        0.0,
+        1.0,
+        10.0
+      ],
+      "components": [
+        {
+          "type": "Camera",
+          "properties": {
+            "projection": "perspective",
+            "fov": 60.0,
+            "orthoHeight": 5.0,
+            "near": 0.3,
+            "far": 1000.0,
+            "priority": -1.0,
+            "color": [
+              0.192156866,
+              0.3019608,
+              0.4745098,
+              0.0
+            ],
+            "clearFlags": 11,
+            "rect": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Canvas",
+      "components": [
+        {
+          "type": "ScreenScaler",
+          "properties": {
+            "scaleFactor": 1.0,
+            "adaptionMode": "none"
+          }
+        },
+        {
+          "type": "Screen",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 0.0,
+            "anchorBottom": 0.0,
+            "anchorTop": 0.0,
+            "offsetX": 274.0,
+            "offsetY": 323.0,
+            "sizeX": 548.0,
+            "sizeY": 646.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "priority": 0
+          }
+        }
+      ],
+      "children": [
+        2
+      ]
+    },
+    {
+      "name": "panel",
+      "components": [
+        {
+          "type": "Image",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 1.0,
+            "anchorBottom": 0.0,
+            "anchorTop": 1.0,
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "sizeX": -20.0,
+            "sizeY": -20.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "type": "sliced",
+            "color": [
+              0.0,
+              0.5862069,
+              1.0,
+              1.0
+            ],
+            "sprite": "round-rect-8px@1404bccc6df90114eb3a195786762bfd"
+          }
+        }
+      ],
+      "children": [
+        3,
+        4,
+        8,
+        11,
+        12
+      ]
+    },
+    {
+      "name": "Text",
+      "translation": [
+        -100.0,
+        138.0,
+        0.0
+      ],
+      "components": [
+        {
+          "type": "Text",
+          "properties": {
+            "anchorLeft": 0.5,
+            "anchorRight": 0.5,
+            "anchorBottom": 0.5,
+            "anchorTop": 0.5,
+            "offsetX": -100.0,
+            "offsetY": 138.0,
+            "sizeX": 200.0,
+            "sizeY": 30.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "font": "f6b4fc4fdfefb5b42aecf73690adb984",
+            "fontFamily": null,
+            "text": "Toggle:",
+            "fontSize": 20,
+            "align": "top-left",
+            "color": [
+              0.196078435,
+              0.196078435,
+              0.196078435,
+              1.0
+            ],
+            "italic": false,
+            "bold": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "Toggle",
+      "translation": [
+        -94.7,
+        60.2,
+        0.0
+      ],
+      "components": [
+        {
+          "type": "Widget",
+          "properties": {
+            "anchorLeft": 0.5,
+            "anchorRight": 0.5,
+            "anchorBottom": 0.5,
+            "anchorTop": 0.5,
+            "offsetX": -94.7,
+            "offsetY": 60.2,
+            "sizeX": 160.0,
+            "sizeY": 40.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5
+          }
+        },
+        {
+          "type": "Toggle",
+          "properties": {
+            "background": "e5",
+            "transitionColors": {
+              "normal": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "highlight": [
+                0.9607843,
+                0.9607843,
+                0.9607843,
+                1.0
+              ],
+              "pressed": [
+                0.784313738,
+                0.784313738,
+                0.784313738,
+                1.0
+              ],
+              "disabled": [
+                0.784313738,
+                0.784313738,
+                0.784313738,
+                0.5019608
+              ]
+            },
+            "transition": "color",
+            "checked": true,
+            "checker": "e6"
+          }
+        }
+      ],
+      "children": [
+        5,
+        7
+      ]
+    },
+    {
+      "name": "Background",
+      "translation": [
+        -60.0,
+        0.0,
+        0.0
+      ],
+      "components": [
+        {
+          "type": "Image",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 0.0,
+            "anchorBottom": 1.0,
+            "anchorTop": 1.0,
+            "offsetX": 20.0,
+            "offsetY": -20.0,
+            "sizeX": 40.0,
+            "sizeY": 40.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "type": "sliced",
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "sprite": "rect-ry8@07d91d9460b9e0c47b239fe98e5e0395"
+          }
+        }
+      ],
+      "children": [
+        6
+      ]
+    },
+    {
+      "name": "Checkmark",
+      "components": [
+        {
+          "type": "Image",
+          "properties": {
+            "anchorLeft": 0.5,
+            "anchorRight": 0.5,
+            "anchorBottom": 0.5,
+            "anchorTop": 0.5,
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "sizeX": 40.0,
+            "sizeY": 40.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "type": "simple",
+            "color": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "sprite": "UI_Icon_Confirm@88924534b9ea345778719b733ed99479"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Label",
+      "translation": [
+        19.0,
+        -0.5,
+        0.0
+      ],
+      "components": [
+        {
+          "type": "Text",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 1.0,
+            "anchorBottom": 0.0,
+            "anchorTop": 1.0,
+            "offsetX": 19.0,
+            "offsetY": -0.5,
+            "sizeX": -48.0,
+            "sizeY": -3.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "font": "f6b4fc4fdfefb5b42aecf73690adb984",
+            "fontFamily": null,
+            "text": "foobar",
+            "fontSize": 20,
+            "align": "top-left",
+            "color": [
+              0.196078435,
+              0.196078435,
+              0.196078435,
+              1.0
+            ],
+            "italic": false,
+            "bold": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "Toggle (1)",
+      "translation": [
+        99.1,
+        60.2000122,
+        0.0
+      ],
+      "components": [
+        {
+          "type": "Widget",
+          "properties": {
+            "anchorLeft": 0.5,
+            "anchorRight": 0.5,
+            "anchorBottom": 0.5,
+            "anchorTop": 0.5,
+            "offsetX": 99.1,
+            "offsetY": 60.2000122,
+            "sizeX": 160.0,
+            "sizeY": 40.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5
+          }
+        },
+        {
+          "type": "Toggle",
+          "properties": {
+            "background": "e9",
+            "transitionColors": {
+              "normal": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "highlight": [
+                0.9607843,
+                0.9607843,
+                0.9607843,
+                1.0
+              ],
+              "pressed": [
+                0.784313738,
+                0.784313738,
+                0.784313738,
+                1.0
+              ],
+              "disabled": [
+                0.784313738,
+                0.784313738,
+                0.784313738,
+                0.5019608
+              ]
+            },
+            "transition": "color",
+            "checked": true,
+            "checker": "e10"
+          }
+        }
+      ],
+      "children": [
+        9
+      ]
+    },
+    {
+      "name": "Background",
+      "translation": [
+        -60.0,
+        0.0,
+        0.0
+      ],
+      "components": [
+        {
+          "type": "Image",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 0.0,
+            "anchorBottom": 1.0,
+            "anchorTop": 1.0,
+            "offsetX": 20.0,
+            "offsetY": -20.0,
+            "sizeX": 40.0,
+            "sizeY": 40.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "type": "sliced",
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "sprite": "rect-ry8@07d91d9460b9e0c47b239fe98e5e0395"
+          }
+        }
+      ],
+      "children": [
+        10
+      ]
+    },
+    {
+      "name": "Checkmark",
+      "components": [
+        {
+          "type": "Image",
+          "properties": {
+            "anchorLeft": 0.5,
+            "anchorRight": 0.5,
+            "anchorBottom": 0.5,
+            "anchorTop": 0.5,
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "sizeX": 40.0,
+            "sizeY": 40.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "type": "simple",
+            "color": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "sprite": "UI_Icon_Confirm@88924534b9ea345778719b733ed99479"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Text (1)",
+      "translation": [
+        -100.0,
+        -19.0,
+        0.0
+      ],
+      "components": [
+        {
+          "type": "Text",
+          "properties": {
+            "anchorLeft": 0.5,
+            "anchorRight": 0.5,
+            "anchorBottom": 0.5,
+            "anchorTop": 0.5,
+            "offsetX": -100.0,
+            "offsetY": -19.0,
+            "sizeX": 200.0,
+            "sizeY": 30.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "font": "f6b4fc4fdfefb5b42aecf73690adb984",
+            "fontFamily": null,
+            "text": "ToggleGroup:",
+            "fontSize": 20,
+            "align": "top-left",
+            "color": [
+              0.196078435,
+              0.196078435,
+              0.196078435,
+              1.0
+            ],
+            "italic": false,
+            "bold": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "group",
+      "components": [
+        {
+          "type": "Widget",
+          "properties": {
+            "anchorLeft": 0.5,
+            "anchorRight": 0.5,
+            "anchorBottom": 0.5,
+            "anchorTop": 0.5,
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "sizeX": 100.0,
+            "sizeY": 100.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5
+          }
+        },
+        {
+          "type": "ToggleGroup",
+          "properties": {
+            "allowSwitchOff": false
+          }
+        }
+      ],
+      "children": [
+        13,
+        16,
+        19
+      ]
+    },
+    {
+      "name": "Toggle 1",
+      "translation": [
+        -169.2,
+        -101.3,
+        0.0
+      ],
+      "components": [
+        {
+          "type": "Widget",
+          "properties": {
+            "anchorLeft": 0.5,
+            "anchorRight": 0.5,
+            "anchorBottom": 0.5,
+            "anchorTop": 0.5,
+            "offsetX": -169.2,
+            "offsetY": -101.3,
+            "sizeX": 40.0,
+            "sizeY": 40.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5
+          }
+        },
+        {
+          "type": "Toggle",
+          "properties": {
+            "background": "e14",
+            "transitionColors": {
+              "normal": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "highlight": [
+                0.9607843,
+                0.9607843,
+                0.9607843,
+                1.0
+              ],
+              "pressed": [
+                0.784313738,
+                0.784313738,
+                0.784313738,
+                1.0
+              ],
+              "disabled": [
+                0.784313738,
+                0.784313738,
+                0.784313738,
+                0.5019608
+              ]
+            },
+            "transition": "color",
+            "checked": true,
+            "checker": "e15",
+            "toggleGroup": "e12"
+          }
+        }
+      ],
+      "children": [
+        14
+      ]
+    },
+    {
+      "name": "Background",
+      "components": [
+        {
+          "type": "Image",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 0.0,
+            "anchorBottom": 1.0,
+            "anchorTop": 1.0,
+            "offsetX": 20.0,
+            "offsetY": -20.0,
+            "sizeX": 40.0,
+            "sizeY": 40.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "type": "sliced",
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "sprite": "rect-ry8@07d91d9460b9e0c47b239fe98e5e0395"
+          }
+        }
+      ],
+      "children": [
+        15
+      ]
+    },
+    {
+      "name": "Checkmark",
+      "components": [
+        {
+          "type": "Image",
+          "properties": {
+            "anchorLeft": 0.5,
+            "anchorRight": 0.5,
+            "anchorBottom": 0.5,
+            "anchorTop": 0.5,
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "sizeX": 40.0,
+            "sizeY": 40.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "type": "simple",
+            "color": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "sprite": "UI_Icon_Confirm@88924534b9ea345778719b733ed99479"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Toggle 2",
+      "translation": [
+        -55.7,
+        -101.3,
+        0.0
+      ],
+      "components": [
+        {
+          "type": "Widget",
+          "properties": {
+            "anchorLeft": 0.5,
+            "anchorRight": 0.5,
+            "anchorBottom": 0.5,
+            "anchorTop": 0.5,
+            "offsetX": -55.7,
+            "offsetY": -101.3,
+            "sizeX": 40.0,
+            "sizeY": 40.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5
+          }
+        },
+        {
+          "type": "Toggle",
+          "properties": {
+            "background": "e17",
+            "transitionColors": {
+              "normal": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "highlight": [
+                0.9607843,
+                0.9607843,
+                0.9607843,
+                1.0
+              ],
+              "pressed": [
+                0.784313738,
+                0.784313738,
+                0.784313738,
+                1.0
+              ],
+              "disabled": [
+                0.784313738,
+                0.784313738,
+                0.784313738,
+                0.5019608
+              ]
+            },
+            "transition": "color",
+            "checked": true,
+            "checker": "e18",
+            "toggleGroup": "e12"
+          }
+        }
+      ],
+      "children": [
+        17
+      ]
+    },
+    {
+      "name": "Background",
+      "components": [
+        {
+          "type": "Image",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 0.0,
+            "anchorBottom": 1.0,
+            "anchorTop": 1.0,
+            "offsetX": 20.0,
+            "offsetY": -20.0,
+            "sizeX": 40.0,
+            "sizeY": 40.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "type": "sliced",
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "sprite": "rect-ry8@07d91d9460b9e0c47b239fe98e5e0395"
+          }
+        }
+      ],
+      "children": [
+        18
+      ]
+    },
+    {
+      "name": "Checkmark",
+      "components": [
+        {
+          "type": "Image",
+          "properties": {
+            "anchorLeft": 0.5,
+            "anchorRight": 0.5,
+            "anchorBottom": 0.5,
+            "anchorTop": 0.5,
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "sizeX": 40.0,
+            "sizeY": 40.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "type": "simple",
+            "color": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "sprite": "UI_Icon_Confirm@88924534b9ea345778719b733ed99479"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Toggle 3",
+      "translation": [
+        57.9,
+        -101.3,
+        0.0
+      ],
+      "components": [
+        {
+          "type": "Widget",
+          "properties": {
+            "anchorLeft": 0.5,
+            "anchorRight": 0.5,
+            "anchorBottom": 0.5,
+            "anchorTop": 0.5,
+            "offsetX": 57.9,
+            "offsetY": -101.3,
+            "sizeX": 40.0,
+            "sizeY": 40.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5
+          }
+        },
+        {
+          "type": "Toggle",
+          "properties": {
+            "background": "e20",
+            "transitionColors": {
+              "normal": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "highlight": [
+                0.9607843,
+                0.9607843,
+                0.9607843,
+                1.0
+              ],
+              "pressed": [
+                0.784313738,
+                0.784313738,
+                0.784313738,
+                1.0
+              ],
+              "disabled": [
+                0.784313738,
+                0.784313738,
+                0.784313738,
+                0.5019608
+              ]
+            },
+            "transition": "color",
+            "checked": true,
+            "checker": "e21",
+            "toggleGroup": "e12"
+          }
+        }
+      ],
+      "children": [
+        20
+      ]
+    },
+    {
+      "name": "Background",
+      "components": [
+        {
+          "type": "Image",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 0.0,
+            "anchorBottom": 1.0,
+            "anchorTop": 1.0,
+            "offsetX": 20.0,
+            "offsetY": -20.0,
+            "sizeX": 40.0,
+            "sizeY": 40.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "type": "sliced",
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "sprite": "rect-ry8@07d91d9460b9e0c47b239fe98e5e0395"
+          }
+        }
+      ],
+      "children": [
+        21
+      ]
+    },
+    {
+      "name": "Checkmark",
+      "components": [
+        {
+          "type": "Image",
+          "properties": {
+            "anchorLeft": 0.5,
+            "anchorRight": 0.5,
+            "anchorBottom": 0.5,
+            "anchorTop": 0.5,
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "sizeX": 40.0,
+            "sizeY": 40.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "type": "simple",
+            "color": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "sprite": "UI_Icon_Confirm@88924534b9ea345778719b733ed99479"
+          }
+        }
+      ]
+    },
+    {
+      "name": "EventSystem"
+    }
+  ],
+  "preloads": [
+    "round-rect-8px@1404bccc6df90114eb3a195786762bfd",
+    "f6b4fc4fdfefb5b42aecf73690adb984",
+    "rect-ry8@07d91d9460b9e0c47b239fe98e5e0395",
+    "UI_Icon_Confirm@88924534b9ea345778719b733ed99479"
+  ],
+  "skyboxes": []
+}

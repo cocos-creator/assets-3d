@@ -1,0 +1,23 @@
+{
+  "sprites": {
+    "UI_Icon_Confirm": {
+      "texture": "88924534b9ea345778719b733ed99479",
+      "rotated": false,
+      "x": 0.0,
+      "y": 0.0,
+      "width": 128.0,
+      "height": 128.0,
+      "left": 0.0,
+      "right": 0.0,
+      "bottom": 0.0,
+      "top": 0.0
+    }
+  },
+  "type": "sprite",
+  "anisotropy": 1,
+  "minFilter": "linear",
+  "magFilter": "linear",
+  "mipFilter": "nearest",
+  "wrapS": "clamp",
+  "wrapT": "clamp"
+}
