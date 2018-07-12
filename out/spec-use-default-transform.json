@@ -1,0 +1,120 @@
+{
+  "children": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "entities": [
+    {
+      "name": "floor_20",
+      "prefab": "c4def916f5c944292b360d390f3f1d75",
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "modifications": [
+        {
+          "property": "Model.materials[0]",
+          "entity": 0,
+          "value": "57c4e4c03fac94a669acd9cc2b7cba33"
+        }
+      ]
+    },
+    {
+      "name": "Main Camera",
+      "translation": [
+        2.91347551,
+        4.643175,
+        4.003255
+      ],
+      "rotation": [
+        -0.356678575,
+        0.24621588,
+        0.09803128,
+        0.8958505
+      ],
+      "components": [
+        {
+          "type": "Camera",
+          "properties": {
+            "projection": "perspective",
+            "fov": 60.0,
+            "orthoHeight": 5.0,
+            "near": 0.3,
+            "far": 1000.0,
+            "priority": -1.0,
+            "color": [
+              0.192156866,
+              0.3019608,
+              0.4745098,
+              0.0
+            ],
+            "clearFlags": 11,
+            "rect": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "prefab-mod",
+      "prefab": "363e7703560374232b1b62c8899643e9",
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071067
+      ],
+      "modifications": [
+        {
+          "property": "name",
+          "entity": 0,
+          "value": "prefab-mod"
+        },
+        {
+          "property": "Model.materials[0]",
+          "entity": 0,
+          "value": "acb58da92fa054c20a041895e0fd2e3b"
+        }
+      ]
+    },
+    {
+      "name": "prefab-with-custom-transform",
+      "prefab": "363e7703560374232b1b62c8899643e9",
+      "translation": [
+        2.0,
+        0.2,
+        -2.0
+      ],
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        1.0,
+        2.0,
+        1.0
+      ]
+    }
+  ],
+  "preloads": [
+    "57c4e4c03fac94a669acd9cc2b7cba33",
+    "f75051938c307468eb1105b09008a72a",
+    "acb58da92fa054c20a041895e0fd2e3b",
+    "68f6d676db49b4bdf8b8fcc4064eeeb8",
+    "2751bfe6837879649bc54e1823cdf856",
+    "bf8102a39070c40539457dd742b7d7ac",
+    "c4def916f5c944292b360d390f3f1d75",
+    "363e7703560374232b1b62c8899643e9"
+  ],
+  "skyboxes": []
+}

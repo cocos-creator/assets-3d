@@ -1,0 +1,1068 @@
+{
+  "asset": {
+    "generator": "u3d-exporter",
+    "version": "1.0.0"
+  },
+  "accessors": [
+    {
+      "name": "time0@Skill",
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 1,
+      "type": "SCALAR"
+    },
+    {
+      "name": "times@Skill",
+      "bufferView": 0,
+      "byteOffset": 4,
+      "componentType": 5126,
+      "count": 36,
+      "type": "SCALAR"
+    },
+    {
+      "name": "Bip001_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 148,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bip001_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 580,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bip001 Footsteps_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 1156,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bip001 Footsteps_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 1588,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bip001 Pelvis_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 2164,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bip001 Spine_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 2740,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bip001 Spine_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 3172,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bip001 L Thigh_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 3748,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bip001 L Thigh_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 4180,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bip001 L Calf_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 4756,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bip001 L Calf_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 4768,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bip001 L Foot_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 5344,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bip001 L Foot_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 5356,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bip001 L Toe0_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 5932,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bip001 L Toe0_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 5944,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bip001 R Thigh_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 6520,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bip001 R Thigh_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 6952,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bip001 R Calf_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 7528,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bip001 R Calf_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 7540,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bip001 R Foot_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 8116,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bip001 R Foot_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 8128,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bip001 R Toe0_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 8704,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bip001 R Toe0_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 8716,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bip001 Spine1_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 9292,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bip001 Spine1_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 9724,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bip001 Neck_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 10300,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bip001 Neck_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 10312,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bip001 Head_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 10888,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bip001 Head_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 10900,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bone001_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 11476,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bone001_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 11488,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bip001 L Clavicle_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 12064,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bip001 L Clavicle_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 12496,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bip001 L UpperArm_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 13072,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bip001 L UpperArm_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 13084,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bip001 L Forearm_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 13660,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bip001 L Forearm_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 13672,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bip001 L Hand_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 14248,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bip001 L Hand_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 14260,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bip001 L Finger0_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 14836,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bip001 L Finger0_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 14848,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bip001 L Finger01_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 14864,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bip001 L Finger01_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 14876,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bip001 L Finger02_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 14892,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bip001 L Finger02_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 14904,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bip001 L Finger1_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 14920,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bip001 L Finger1_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 14932,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bip001 L Finger11_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 14948,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bip001 L Finger11_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 14960,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bip001 L Finger12_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 14976,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bip001 L Finger12_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 14988,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bip001 R Clavicle_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 15004,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bip001 R Clavicle_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 15436,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bip001 R UpperArm_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 16012,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bip001 R UpperArm_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 16024,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bip001 R Forearm_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 16600,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bip001 R Forearm_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 16612,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bip001 R Hand_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 17188,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bip001 R Hand_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 17200,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bip001 R Finger0_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 17776,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bip001 R Finger0_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 17788,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bip001 R Finger01_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 18364,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bip001 R Finger01_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 18376,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bip001 R Finger02_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 18952,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bip001 R Finger02_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 18964,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bip001 R Finger1_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 19540,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bip001 R Finger1_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 19552,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bip001 R Finger11_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 20128,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bip001 R Finger11_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 20140,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bip001 R Finger12_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 20716,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bip001 R Finger12_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 20728,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC4"
+    },
+    {
+      "name": "Bip001 Prop1_T@Skill",
+      "bufferView": 0,
+      "byteOffset": 21304,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC3"
+    },
+    {
+      "name": "Bip001 Prop1_R@Skill",
+      "bufferView": 0,
+      "byteOffset": 21736,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC4"
+    }
+  ],
+  "animations": [
+    {
+      "name": "Skill",
+      "channels": [
+        {
+          "input": 1,
+          "output": 2,
+          "node": 1,
+          "path": "translation"
+        },
+        {
+          "input": 1,
+          "output": 3,
+          "node": 1,
+          "path": "rotation"
+        },
+        {
+          "input": 1,
+          "output": 4,
+          "node": 2,
+          "path": "translation"
+        },
+        {
+          "input": 1,
+          "output": 5,
+          "node": 2,
+          "path": "rotation"
+        },
+        {
+          "input": 1,
+          "output": 6,
+          "node": 3,
+          "path": "rotation"
+        },
+        {
+          "input": 1,
+          "output": 7,
+          "node": 4,
+          "path": "translation"
+        },
+        {
+          "input": 1,
+          "output": 8,
+          "node": 4,
+          "path": "rotation"
+        },
+        {
+          "input": 1,
+          "output": 9,
+          "node": 5,
+          "path": "translation"
+        },
+        {
+          "input": 1,
+          "output": 10,
+          "node": 5,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 11,
+          "node": 6,
+          "path": "translation"
+        },
+        {
+          "input": 1,
+          "output": 12,
+          "node": 6,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 13,
+          "node": 7,
+          "path": "translation"
+        },
+        {
+          "input": 1,
+          "output": 14,
+          "node": 7,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 15,
+          "node": 8,
+          "path": "translation"
+        },
+        {
+          "input": 1,
+          "output": 16,
+          "node": 8,
+          "path": "rotation"
+        },
+        {
+          "input": 1,
+          "output": 17,
+          "node": 9,
+          "path": "translation"
+        },
+        {
+          "input": 1,
+          "output": 18,
+          "node": 9,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 19,
+          "node": 10,
+          "path": "translation"
+        },
+        {
+          "input": 1,
+          "output": 20,
+          "node": 10,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 21,
+          "node": 11,
+          "path": "translation"
+        },
+        {
+          "input": 1,
+          "output": 22,
+          "node": 11,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 23,
+          "node": 12,
+          "path": "translation"
+        },
+        {
+          "input": 1,
+          "output": 24,
+          "node": 12,
+          "path": "rotation"
+        },
+        {
+          "input": 1,
+          "output": 25,
+          "node": 13,
+          "path": "translation"
+        },
+        {
+          "input": 1,
+          "output": 26,
+          "node": 13,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 27,
+          "node": 14,
+          "path": "translation"
+        },
+        {
+          "input": 1,
+          "output": 28,
+          "node": 14,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 29,
+          "node": 15,
+          "path": "translation"
+        },
+        {
+          "input": 1,
+          "output": 30,
+          "node": 15,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 31,
+          "node": 16,
+          "path": "translation"
+        },
+        {
+          "input": 1,
+          "output": 32,
+          "node": 16,
+          "path": "rotation"
+        },
+        {
+          "input": 1,
+          "output": 33,
+          "node": 17,
+          "path": "translation"
+        },
+        {
+          "input": 1,
+          "output": 34,
+          "node": 17,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 35,
+          "node": 18,
+          "path": "translation"
+        },
+        {
+          "input": 1,
+          "output": 36,
+          "node": 18,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 37,
+          "node": 19,
+          "path": "translation"
+        },
+        {
+          "input": 1,
+          "output": 38,
+          "node": 19,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 39,
+          "node": 20,
+          "path": "translation"
+        },
+        {
+          "input": 1,
+          "output": 40,
+          "node": 20,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 41,
+          "node": 21,
+          "path": "translation"
+        },
+        {
+          "input": 0,
+          "output": 42,
+          "node": 21,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 43,
+          "node": 22,
+          "path": "translation"
+        },
+        {
+          "input": 0,
+          "output": 44,
+          "node": 22,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 45,
+          "node": 23,
+          "path": "translation"
+        },
+        {
+          "input": 0,
+          "output": 46,
+          "node": 23,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 47,
+          "node": 24,
+          "path": "translation"
+        },
+        {
+          "input": 0,
+          "output": 48,
+          "node": 24,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 49,
+          "node": 25,
+          "path": "translation"
+        },
+        {
+          "input": 0,
+          "output": 50,
+          "node": 25,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 51,
+          "node": 26,
+          "path": "translation"
+        },
+        {
+          "input": 0,
+          "output": 52,
+          "node": 26,
+          "path": "rotation"
+        },
+        {
+          "input": 1,
+          "output": 53,
+          "node": 27,
+          "path": "translation"
+        },
+        {
+          "input": 1,
+          "output": 54,
+          "node": 27,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 55,
+          "node": 28,
+          "path": "translation"
+        },
+        {
+          "input": 1,
+          "output": 56,
+          "node": 28,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 57,
+          "node": 29,
+          "path": "translation"
+        },
+        {
+          "input": 1,
+          "output": 58,
+          "node": 29,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 59,
+          "node": 30,
+          "path": "translation"
+        },
+        {
+          "input": 1,
+          "output": 60,
+          "node": 30,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 61,
+          "node": 31,
+          "path": "translation"
+        },
+        {
+          "input": 1,
+          "output": 62,
+          "node": 31,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 63,
+          "node": 32,
+          "path": "translation"
+        },
+        {
+          "input": 1,
+          "output": 64,
+          "node": 32,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 65,
+          "node": 33,
+          "path": "translation"
+        },
+        {
+          "input": 1,
+          "output": 66,
+          "node": 33,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 67,
+          "node": 34,
+          "path": "translation"
+        },
+        {
+          "input": 1,
+          "output": 68,
+          "node": 34,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 69,
+          "node": 35,
+          "path": "translation"
+        },
+        {
+          "input": 1,
+          "output": 70,
+          "node": 35,
+          "path": "rotation"
+        },
+        {
+          "input": 0,
+          "output": 71,
+          "node": 36,
+          "path": "translation"
+        },
+        {
+          "input": 1,
+          "output": 72,
+          "node": 36,
+          "path": "rotation"
+        },
+        {
+          "input": 1,
+          "output": 73,
+          "node": 37,
+          "path": "translation"
+        },
+        {
+          "input": 1,
+          "output": 74,
+          "node": 37,
+          "path": "rotation"
+        }
+      ]
+    }
+  ],
+  "buffers": [
+    {
+      "name": "skeleton",
+      "uri": "1e768688017709245aed3bb86453c364-0.bin",
+      "byteLength": 22312
+    }
+  ],
+  "bufferViews": [
+    {
+      "name": "Skill",
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 22312
+    }
+  ]
+}

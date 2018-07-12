@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "generator": "u3d-exporter",
+    "version": "1.0.0"
+  },
+  "accessors": [
+    {
+      "name": "position@a00Block",
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "min": [
+        -0.5,
+        0.0,
+        -0.5
+      ],
+      "max": [
+        0.5,
+        1.0,
+        0.5
+      ]
+    },
+    {
+      "name": "normal@a00Block",
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "tangent@a00Block",
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC4",
+      "min": [
+        -1.0,
+        0.0,
+        -1.0,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "uv0@a00Block",
+      "bufferView": 0,
+      "byteOffset": 40,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2"
+    },
+    {
+      "name": "uv1@a00Block",
+      "bufferView": 0,
+      "byteOffset": 48,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2"
+    },
+    {
+      "name": "indices0@a00Block",
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 36,
+      "type": "SCALAR"
+    }
+  ],
+  "buffers": [
+    {
+      "name": "a00Block",
+      "uri": "837f1b8ff169dc840b18862d7fe9350e.bin",
+      "byteLength": 1416
+    }
+  ],
+  "bufferViews": [
+    {
+      "name": "vb@a00Block",
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 1344,
+      "byteStride": 56,
+      "target": 34962
+    },
+    {
+      "name": "ib0@a00Block",
+      "buffer": 0,
+      "byteOffset": 1344,
+      "byteLength": 72,
+      "target": 34963
+    }
+  ],
+  "meshes": [
+    {
+      "name": "a00Block",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "children": [
+    0,
+    1,
+    2
+  ],
+  "entities": [
+    {
+      "name": "Main Camera",
+      "translation": [
+        0.6095276,
+        1.01728439,
+        -0.796163559
+      ],
+      "rotation": [
+        -0.123879895,
+        0.8736981,
+        0.365599245,
+        0.296045
+      ],
+      "components": [
+        {
+          "type": "Camera",
+          "properties": {
+            "projection": "perspective",
+            "fov": 60.0,
+            "orthoHeight": 5.0,
+            "near": 0.3,
+            "far": 1000.0,
+            "priority": -1.0,
+            "color": [
+              0.192156866,
+              0.3019608,
+              0.4745098,
+              0.0
+            ],
+            "clearFlags": 11,
+            "rect": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Directional Light",
+      "translation": [
+        0.0,
+        3.0,
+        0.0
+      ],
+      "rotation": [
+        -0.408217877,
+        0.234569684,
+        0.109381631,
+        0.8754261
+      ],
+      "components": [
+        {
+          "type": "Light",
+          "properties": {
+            "color": [
+              1.0,
+              0.956862748,
+              0.8392157
+            ],
+            "intensity": 1.0,
+            "shadowType": "soft",
+            "shadowDarkness": 1.0,
+            "shadowBias": 0.05
+          }
+        }
+      ]
+    },
+    {
+      "name": "prefab",
+      "components": [
+        {
+          "type": "PrefabRef",
+          "properties": {
+            "prefab": "6f35ca016ef9541eda958df9355fc946"
+          }
+        }
+      ]
+    }
+  ],
+  "preloads": [
+    "6f35ca016ef9541eda958df9355fc946",
+    "bf8102a39070c40539457dd742b7d7ac",
+    "2751bfe6837879649bc54e1823cdf856"
+  ],
+  "skyboxes": []
+}

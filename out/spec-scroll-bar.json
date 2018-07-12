@@ -1,0 +1,245 @@
+{
+  "children": [
+    0,
+    1,
+    6
+  ],
+  "entities": [
+    {
+      "name": "Main Camera",
+      "translation": [
+        0.0,
+        1.0,
+        10.0
+      ],
+      "components": [
+        {
+          "type": "Camera",
+          "properties": {
+            "projection": "perspective",
+            "fov": 60.0,
+            "orthoHeight": 5.0,
+            "near": 0.3,
+            "far": 1000.0,
+            "priority": -1.0,
+            "color": [
+              0.192156866,
+              0.3019608,
+              0.4745098,
+              0.0
+            ],
+            "clearFlags": 11,
+            "rect": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Canvas",
+      "components": [
+        {
+          "type": "ScreenScaler",
+          "properties": {
+            "scaleFactor": 1.0,
+            "adaptionMode": "none"
+          }
+        },
+        {
+          "type": "Screen",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 0.0,
+            "anchorBottom": 0.0,
+            "anchorTop": 0.0,
+            "offsetX": 274.0,
+            "offsetY": 323.0,
+            "sizeX": 548.0,
+            "sizeY": 646.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "priority": 0
+          }
+        }
+      ],
+      "children": [
+        2
+      ]
+    },
+    {
+      "name": "panel",
+      "components": [
+        {
+          "type": "Image",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 1.0,
+            "anchorBottom": 0.0,
+            "anchorTop": 1.0,
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "sizeX": -20.0,
+            "sizeY": -20.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "type": "sliced",
+            "color": [
+              0.0,
+              0.5862069,
+              1.0,
+              1.0
+            ],
+            "sprite": "round-rect-8px@1404bccc6df90114eb3a195786762bfd"
+          }
+        }
+      ],
+      "children": [
+        3
+      ]
+    },
+    {
+      "name": "Scrollbar",
+      "rotation": [
+        0.0,
+        0.0,
+        0.2588191,
+        0.9659258
+      ],
+      "components": [
+        {
+          "type": "Image",
+          "properties": {
+            "anchorLeft": 0.5,
+            "anchorRight": 0.5,
+            "anchorBottom": 0.5,
+            "anchorTop": 0.5,
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "sizeX": 260.0,
+            "sizeY": 40.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "type": "sliced",
+            "color": [
+              0.0,
+              0.701977551,
+              0.9338235,
+              1.0
+            ],
+            "sprite": "square-ry8@02bc6413e9c541c4c8fd2e7501c27232"
+          }
+        },
+        {
+          "type": "ScrollBar",
+          "properties": {
+            "background": "e5",
+            "transitionColors": {
+              "normal": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "highlight": [
+                0.852941155,
+                0.852941155,
+                0.852941155,
+                1.0
+              ],
+              "pressed": [
+                0.625,
+                0.625,
+                0.625,
+                1.0
+              ],
+              "disabled": [
+                0.784313738,
+                0.784313738,
+                0.784313738,
+                0.5019608
+              ]
+            },
+            "transition": "color",
+            "direction": "horizontal",
+            "reverse": false,
+            "value": 0.0,
+            "size": 0.2,
+            "handle": "e5"
+          }
+        }
+      ],
+      "children": [
+        4
+      ]
+    },
+    {
+      "name": "Sliding Area",
+      "components": [
+        {
+          "type": "Widget",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 1.0,
+            "anchorBottom": 0.0,
+            "anchorTop": 1.0,
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "sizeX": -20.0,
+            "sizeY": -20.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5
+          }
+        }
+      ],
+      "children": [
+        5
+      ]
+    },
+    {
+      "name": "Handle",
+      "translation": [
+        -96.0,
+        0.0,
+        0.0
+      ],
+      "components": [
+        {
+          "type": "Image",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 0.2,
+            "anchorBottom": 0.0,
+            "anchorTop": 1.0,
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "sizeX": 20.0,
+            "sizeY": 20.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "type": "sliced",
+            "color": [
+              0.0,
+              0.6544118,
+              0.0857505947,
+              1.0
+            ],
+            "sprite": "rect-ry8@07d91d9460b9e0c47b239fe98e5e0395"
+          }
+        }
+      ]
+    },
+    {
+      "name": "EventSystem"
+    }
+  ],
+  "preloads": [
+    "round-rect-8px@1404bccc6df90114eb3a195786762bfd",
+    "square-ry8@02bc6413e9c541c4c8fd2e7501c27232",
+    "rect-ry8@07d91d9460b9e0c47b239fe98e5e0395"
+  ],
+  "skyboxes": []
+}

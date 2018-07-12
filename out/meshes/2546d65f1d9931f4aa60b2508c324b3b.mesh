@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "generator": "u3d-exporter",
+    "version": "1.0.0"
+  },
+  "accessors": [
+    {
+      "name": "position@a01HalfBlock",
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "min": [
+        -0.5,
+        0.0,
+        -0.5
+      ],
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "name": "normal@a01HalfBlock",
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "tangent@a01HalfBlock",
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC4",
+      "min": [
+        -1.0,
+        0.0,
+        -1.0,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "uv0@a01HalfBlock",
+      "bufferView": 0,
+      "byteOffset": 40,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2"
+    },
+    {
+      "name": "uv1@a01HalfBlock",
+      "bufferView": 0,
+      "byteOffset": 48,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2"
+    },
+    {
+      "name": "indices0@a01HalfBlock",
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 36,
+      "type": "SCALAR"
+    }
+  ],
+  "buffers": [
+    {
+      "name": "a01HalfBlock",
+      "uri": "2546d65f1d9931f4aa60b2508c324b3b.bin",
+      "byteLength": 1416
+    }
+  ],
+  "bufferViews": [
+    {
+      "name": "vb@a01HalfBlock",
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 1344,
+      "byteStride": 56,
+      "target": 34962
+    },
+    {
+      "name": "ib0@a01HalfBlock",
+      "buffer": 0,
+      "byteOffset": 1344,
+      "byteLength": 72,
+      "target": 34963
+    }
+  ],
+  "meshes": [
+    {
+      "name": "a01HalfBlock",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5
+        }
+      ]
+    }
+  ]
+}

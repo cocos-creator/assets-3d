@@ -1,0 +1,215 @@
+{
+  "children": [
+    0,
+    1,
+    6
+  ],
+  "entities": [
+    {
+      "name": "Main Camera",
+      "translation": [
+        0.0,
+        1.0,
+        10.0
+      ],
+      "components": [
+        {
+          "type": "Camera",
+          "properties": {
+            "projection": "perspective",
+            "fov": 60.0,
+            "orthoHeight": 5.0,
+            "near": 0.3,
+            "far": 1000.0,
+            "priority": -1.0,
+            "color": [
+              0.192156866,
+              0.3019608,
+              0.4745098,
+              0.0
+            ],
+            "clearFlags": 11,
+            "rect": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Canvas",
+      "components": [
+        {
+          "type": "ScreenScaler",
+          "properties": {
+            "scaleFactor": 1.0,
+            "adaptionMode": "none"
+          }
+        },
+        {
+          "type": "Screen",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 0.0,
+            "anchorBottom": 0.0,
+            "anchorTop": 0.0,
+            "offsetX": 274.0,
+            "offsetY": 323.0,
+            "sizeX": 548.0,
+            "sizeY": 646.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "priority": 0
+          }
+        }
+      ],
+      "children": [
+        2
+      ]
+    },
+    {
+      "name": "panel",
+      "components": [
+        {
+          "type": "Image",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 1.0,
+            "anchorBottom": 0.0,
+            "anchorTop": 1.0,
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "sizeX": -20.0,
+            "sizeY": -20.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "type": "sliced",
+            "color": [
+              0.0,
+              0.5862069,
+              1.0,
+              1.0
+            ],
+            "sprite": "round-rect-8px@1404bccc6df90114eb3a195786762bfd"
+          }
+        }
+      ],
+      "children": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "div-01",
+      "translation": [
+        -244.0,
+        -293.0,
+        0.0
+      ],
+      "components": [
+        {
+          "type": "Image",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 0.0,
+            "anchorBottom": 0.0,
+            "anchorTop": 0.0,
+            "offsetX": 20.0,
+            "offsetY": 20.0,
+            "sizeX": 64.0,
+            "sizeY": 64.0,
+            "pivotX": 0.0,
+            "pivotY": 0.0,
+            "type": "simple",
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "sprite": "orange-box-64x64-measured@5ba917986d108f440953deb4f5ced876"
+          }
+        }
+      ]
+    },
+    {
+      "name": "div-02",
+      "translation": [
+        -170.0,
+        -293.0,
+        0.0
+      ],
+      "components": [
+        {
+          "type": "Image",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 0.0,
+            "anchorBottom": 0.0,
+            "anchorTop": 0.0,
+            "offsetX": 94.0,
+            "offsetY": 20.0,
+            "sizeX": 64.0,
+            "sizeY": 64.0,
+            "pivotX": 0.0,
+            "pivotY": 0.0,
+            "type": "simple",
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "sprite": "orange-box-64x64-measured@5ba917986d108f440953deb4f5ced876"
+          }
+        }
+      ]
+    },
+    {
+      "name": "div-03",
+      "translation": [
+        -244.0,
+        293.0,
+        0.0
+      ],
+      "components": [
+        {
+          "type": "Image",
+          "properties": {
+            "anchorLeft": 0.0,
+            "anchorRight": 0.0,
+            "anchorBottom": 1.0,
+            "anchorTop": 1.0,
+            "offsetX": 20.0,
+            "offsetY": -20.0,
+            "sizeX": 128.0,
+            "sizeY": 128.0,
+            "pivotX": 0.0,
+            "pivotY": 1.0,
+            "type": "simple",
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "sprite": "box-128x128-measured@265d07e0cad881046a30db3e7c25090c"
+          }
+        }
+      ]
+    },
+    {
+      "name": "EventSystem"
+    }
+  ],
+  "preloads": [
+    "round-rect-8px@1404bccc6df90114eb3a195786762bfd",
+    "orange-box-64x64-measured@5ba917986d108f440953deb4f5ced876",
+    "box-128x128-measured@265d07e0cad881046a30db3e7c25090c"
+  ],
+  "skyboxes": []
+}

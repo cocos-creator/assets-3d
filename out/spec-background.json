@@ -1,0 +1,76 @@
+{
+  "children": [
+    0,
+    1
+  ],
+  "entities": [
+    {
+      "name": "Main Camera",
+      "translation": [
+        0.0,
+        0.0,
+        10.0
+      ],
+      "components": [
+        {
+          "type": "Camera",
+          "properties": {
+            "projection": "ortho",
+            "fov": 60.0,
+            "orthoHeight": 1.0,
+            "near": 0.3,
+            "far": 1000.0,
+            "priority": 0.0,
+            "color": [
+              0.192156866,
+              0.3019608,
+              0.4745098,
+              0.0
+            ],
+            "clearFlags": 11,
+            "rect": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Plane",
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        2.0,
+        1.0,
+        2.0
+      ],
+      "components": [
+        {
+          "type": "Model",
+          "properties": {
+            "mesh": "builtin-plane",
+            "materials": [
+              "23cedc26cf4354cf39d50ca7127f8bb6"
+            ],
+            "shadowCastingMode": "on",
+            "receiveShadows": true
+          }
+        }
+      ]
+    }
+  ],
+  "preloads": [
+    "23cedc26cf4354cf39d50ca7127f8bb6",
+    "0eeaa8b7239094d56884e60497ef35b3",
+    "37cff16bc15964af0946cab2fd59390b",
+    "d4ae3ce899fe840009f2b7afc8e2ac42"
+  ],
+  "skyboxes": []
+}

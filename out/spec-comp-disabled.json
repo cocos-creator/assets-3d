@@ -1,0 +1,143 @@
+{
+  "children": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "entities": [
+    {
+      "name": "Main Camera",
+      "translation": [
+        5.12753963,
+        6.953082,
+        6.23318
+      ],
+      "rotation": [
+        -0.33964628,
+        0.2859592,
+        0.109209448,
+        0.8893486
+      ],
+      "components": [
+        {
+          "type": "Camera",
+          "properties": {
+            "projection": "perspective",
+            "fov": 60.0,
+            "orthoHeight": 5.0,
+            "near": 0.3,
+            "far": 1000.0,
+            "priority": -1.0,
+            "color": [
+              0.192156866,
+              0.3019608,
+              0.4745098,
+              0.0
+            ],
+            "clearFlags": 3,
+            "rect": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Directional Light",
+      "translation": [
+        0.0,
+        3.0,
+        0.0
+      ],
+      "rotation": [
+        -0.408217877,
+        0.234569684,
+        0.109381631,
+        0.8754261
+      ],
+      "components": [
+        {
+          "type": "Light",
+          "properties": {
+            "color": [
+              1.0,
+              0.956862748,
+              0.8392157
+            ],
+            "intensity": 1.0,
+            "shadowType": "soft",
+            "shadowDarkness": 1.0,
+            "shadowBias": 0.05
+          }
+        }
+      ]
+    },
+    {
+      "name": "wall-enabled",
+      "translation": [
+        2.12,
+        0.0,
+        -0.09
+      ],
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "components": [
+        {
+          "type": "Model",
+          "properties": {
+            "mesh": "m0@8d155f6951d1e46dc9fd17ae06aa9508",
+            "materials": [
+              "2a4701ee0a2b34482ac8e15f1d2c2827"
+            ],
+            "shadowCastingMode": "on",
+            "receiveShadows": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "wall-disabled",
+      "translation": [
+        -1.86,
+        0.0,
+        1.53
+      ],
+      "rotation": [
+        0.66164124,
+        0.249461189,
+        -0.249461129,
+        0.66164124
+      ],
+      "components": [
+        {
+          "type": "Model",
+          "enabled": false,
+          "properties": {
+            "mesh": "m0@8d155f6951d1e46dc9fd17ae06aa9508",
+            "materials": [
+              "6c1e3845614084ad08e51f7e869f3781"
+            ],
+            "shadowCastingMode": "on",
+            "receiveShadows": true
+          }
+        }
+      ]
+    }
+  ],
+  "preloads": [
+    "2a4701ee0a2b34482ac8e15f1d2c2827",
+    "a90908fde9083405c8479274f913757d",
+    "8d155f6951d1e46dc9fd17ae06aa9508",
+    "6c1e3845614084ad08e51f7e869f3781",
+    "71ef7972bfb5a4c6c9967d343197554a"
+  ],
+  "skyboxes": []
+}

@@ -1,0 +1,626 @@
+{
+  "asset": {
+    "generator": "u3d-exporter",
+    "version": "1.0.0"
+  },
+  "accessors": [
+    {
+      "name": "position@chain.003",
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 35341,
+      "type": "VEC3",
+      "min": [
+        -0.03869238,
+        -0.0383771658,
+        -0.0220180489
+      ],
+      "max": [
+        0.0185279213,
+        0.0364833623,
+        0.0454235151
+      ]
+    },
+    {
+      "name": "normal@chain.003",
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 35341,
+      "type": "VEC3",
+      "min": [
+        -0.999975264,
+        -0.999949932,
+        -0.9996867
+      ],
+      "max": [
+        0.9998948,
+        0.999988556,
+        0.9999479
+      ]
+    },
+    {
+      "name": "tangent@chain.003",
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 35341,
+      "type": "VEC4",
+      "min": [
+        -0.999974847,
+        -0.99994123,
+        -0.999349,
+        -1.0
+      ],
+      "max": [
+        0.99995774,
+        0.999951839,
+        0.999941945,
+        0.0
+      ]
+    },
+    {
+      "name": "uv0@chain.003",
+      "bufferView": 0,
+      "byteOffset": 40,
+      "componentType": 5126,
+      "count": 35341,
+      "type": "VEC2"
+    },
+    {
+      "name": "indices0@chain.003",
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 188808,
+      "type": "SCALAR"
+    },
+    {
+      "name": "position@Plane.001_MeshPart0",
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 35881,
+      "type": "VEC3",
+      "min": [
+        -0.018435156,
+        -0.0459847152,
+        -0.0267477073
+      ],
+      "max": [
+        0.0196496081,
+        0.0232347678,
+        0.0231720414
+      ]
+    },
+    {
+      "name": "normal@Plane.001_MeshPart0",
+      "bufferView": 2,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 35881,
+      "type": "VEC3",
+      "min": [
+        -0.9999313,
+        -0.99949795,
+        -0.9999965
+      ],
+      "max": [
+        0.9999964,
+        0.999867558,
+        0.999999166
+      ]
+    },
+    {
+      "name": "tangent@Plane.001_MeshPart0",
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 35881,
+      "type": "VEC4",
+      "min": [
+        -0.999943554,
+        -0.9997289,
+        -0.999976754,
+        -1.0
+      ],
+      "max": [
+        0.999971032,
+        0.9999795,
+        0.999983549,
+        0.0
+      ]
+    },
+    {
+      "name": "uv0@Plane.001_MeshPart0",
+      "bufferView": 2,
+      "byteOffset": 40,
+      "componentType": 5126,
+      "count": 35881,
+      "type": "VEC2"
+    },
+    {
+      "name": "indices0@Plane.001_MeshPart0",
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 196602,
+      "type": "SCALAR"
+    },
+    {
+      "name": "position@Plane.001_MeshPart1",
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 3681,
+      "type": "VEC3",
+      "min": [
+        -0.0153134642,
+        -0.007827392,
+        -0.0207106173
+      ],
+      "max": [
+        0.001866552,
+        0.0168886762,
+        0.01082982
+      ]
+    },
+    {
+      "name": "normal@Plane.001_MeshPart1",
+      "bufferView": 4,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 3681,
+      "type": "VEC3",
+      "min": [
+        -0.99895227,
+        -0.998094141,
+        -0.998627365
+      ],
+      "max": [
+        0.9476668,
+        0.999704,
+        0.999770463
+      ]
+    },
+    {
+      "name": "tangent@Plane.001_MeshPart1",
+      "bufferView": 4,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 3681,
+      "type": "VEC4",
+      "min": [
+        -0.9999708,
+        -0.9972619,
+        -0.9999336,
+        -1.0
+      ],
+      "max": [
+        0.9998825,
+        0.9994804,
+        0.9957007,
+        0.0
+      ]
+    },
+    {
+      "name": "uv0@Plane.001_MeshPart1",
+      "bufferView": 4,
+      "byteOffset": 40,
+      "componentType": 5126,
+      "count": 3681,
+      "type": "VEC2"
+    },
+    {
+      "name": "indices0@Plane.001_MeshPart1",
+      "bufferView": 5,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 18462,
+      "type": "SCALAR"
+    },
+    {
+      "name": "position@Spark2D.118",
+      "bufferView": 6,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 1305,
+      "type": "VEC3",
+      "min": [
+        -0.849845231,
+        -0.646530032,
+        -0.4120431
+      ],
+      "max": [
+        0.30975315,
+        0.608067632,
+        0.361180633
+      ]
+    },
+    {
+      "name": "normal@Spark2D.118",
+      "bufferView": 6,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 1305,
+      "type": "VEC3",
+      "min": [
+        -0.9760573,
+        -0.999881864,
+        -0.9996921
+      ],
+      "max": [
+        0.977968454,
+        0.9969372,
+        0.999851942
+      ]
+    },
+    {
+      "name": "tangent@Spark2D.118",
+      "bufferView": 6,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 1305,
+      "type": "VEC4",
+      "min": [
+        -0.9314531,
+        -0.991568148,
+        -0.993482351,
+        -1.0
+      ],
+      "max": [
+        0.943108559,
+        0.99998796,
+        0.990557134,
+        0.0
+      ]
+    },
+    {
+      "name": "uv0@Spark2D.118",
+      "bufferView": 6,
+      "byteOffset": 40,
+      "componentType": 5126,
+      "count": 1305,
+      "type": "VEC2"
+    },
+    {
+      "name": "indices0@Spark2D.118",
+      "bufferView": 7,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 3480,
+      "type": "SCALAR"
+    },
+    {
+      "name": "position@Sphere",
+      "bufferView": 8,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 388,
+      "type": "VEC3",
+      "min": [
+        -0.07872566,
+        0.152271017,
+        -0.221823245
+      ],
+      "max": [
+        0.07852228,
+        0.173769921,
+        0.215526
+      ]
+    },
+    {
+      "name": "normal@Sphere",
+      "bufferView": 8,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 388,
+      "type": "VEC3",
+      "min": [
+        -0.9955138,
+        -0.9952861,
+        -0.996622
+      ],
+      "max": [
+        0.9955138,
+        0.9952861,
+        0.996622
+      ]
+    },
+    {
+      "name": "tangent@Sphere",
+      "bufferView": 8,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 388,
+      "type": "VEC4",
+      "min": [
+        -0.9945537,
+        -0.9993556,
+        -0.8402433,
+        -1.0
+      ],
+      "max": [
+        0.998505831,
+        0.9960474,
+        0.404663146,
+        1.0
+      ]
+    },
+    {
+      "name": "uv0@Sphere",
+      "bufferView": 8,
+      "byteOffset": 40,
+      "componentType": 5126,
+      "count": 388,
+      "type": "VEC2"
+    },
+    {
+      "name": "indices0@Sphere",
+      "bufferView": 9,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 2112,
+      "type": "SCALAR"
+    }
+  ],
+  "buffers": [
+    {
+      "name": "DragonMain",
+      "uri": "1ff3e8831784841ae98845a703100b33.bin",
+      "byteLength": 4495536
+    }
+  ],
+  "bufferViews": [
+    {
+      "name": "vb@chain.003",
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 1696368,
+      "byteStride": 48,
+      "target": 34962
+    },
+    {
+      "name": "ib0@chain.003",
+      "buffer": 0,
+      "byteOffset": 1696368,
+      "byteLength": 377616,
+      "target": 34963
+    },
+    {
+      "name": "vb@Plane.001_MeshPart0",
+      "buffer": 0,
+      "byteOffset": 2073984,
+      "byteLength": 1722288,
+      "byteStride": 48,
+      "target": 34962
+    },
+    {
+      "name": "ib0@Plane.001_MeshPart0",
+      "buffer": 0,
+      "byteOffset": 3796272,
+      "byteLength": 393204,
+      "target": 34963
+    },
+    {
+      "name": "vb@Plane.001_MeshPart1",
+      "buffer": 0,
+      "byteOffset": 4189476,
+      "byteLength": 176688,
+      "byteStride": 48,
+      "target": 34962
+    },
+    {
+      "name": "ib0@Plane.001_MeshPart1",
+      "buffer": 0,
+      "byteOffset": 4366164,
+      "byteLength": 36924,
+      "target": 34963
+    },
+    {
+      "name": "vb@Spark2D.118",
+      "buffer": 0,
+      "byteOffset": 4403088,
+      "byteLength": 62640,
+      "byteStride": 48,
+      "target": 34962
+    },
+    {
+      "name": "ib0@Spark2D.118",
+      "buffer": 0,
+      "byteOffset": 4465728,
+      "byteLength": 6960,
+      "target": 34963
+    },
+    {
+      "name": "vb@Sphere",
+      "buffer": 0,
+      "byteOffset": 4472688,
+      "byteLength": 18624,
+      "byteStride": 48,
+      "target": 34962
+    },
+    {
+      "name": "ib0@Sphere",
+      "buffer": 0,
+      "byteOffset": 4491312,
+      "byteLength": 4224,
+      "target": 34963
+    }
+  ],
+  "meshes": [
+    {
+      "name": "chain.003",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4
+        }
+      ]
+    },
+    {
+      "name": "Plane.001_MeshPart0",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9
+        }
+      ]
+    },
+    {
+      "name": "Plane.001_MeshPart1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 10,
+            "NORMAL": 11,
+            "TANGENT": 12,
+            "TEXCOORD_0": 13
+          },
+          "indices": 14
+        }
+      ]
+    },
+    {
+      "name": "Spark2D.118",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 15,
+            "NORMAL": 16,
+            "TANGENT": 17,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19
+        }
+      ]
+    },
+    {
+      "name": "Sphere",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 20,
+            "NORMAL": 21,
+            "TANGENT": 22,
+            "TEXCOORD_0": 23
+          },
+          "indices": 24
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "DragonMain",
+      "children": [
+        1,
+        2,
+        5,
+        6
+      ]
+    },
+    {
+      "name": "chain.003",
+      "translation": [
+        1.50591147,
+        1.56888962,
+        -4.169568
+      ],
+      "rotation": [
+        -0.572209,
+        -0.3149807,
+        0.6964989,
+        -0.2970747
+      ],
+      "scale": [
+        100.000008,
+        100.0,
+        100.0
+      ],
+      "mesh": 0
+    },
+    {
+      "name": "Plane.001",
+      "children": [
+        3,
+        4
+      ],
+      "translation": [
+        -0.0297112744,
+        0.351769865,
+        -0.09657595
+      ],
+      "rotation": [
+        0.716320157,
+        0.002707211,
+        0.000311392418,
+        0.6977664
+      ],
+      "scale": [
+        100.000008,
+        99.9999847,
+        100.000008
+      ]
+    },
+    {
+      "name": "Plane.001_MeshPart0",
+      "mesh": 1
+    },
+    {
+      "name": "Plane.001_MeshPart1",
+      "mesh": 2
+    },
+    {
+      "name": "Spark2D.118",
+      "translation": [
+        3.04838181,
+        2.01102376,
+        -0.0147047779
+      ],
+      "rotation": [
+        -0.8869625,
+        0.04207893,
+        0.0230761357,
+        0.459341317
+      ],
+      "scale": [
+        12.88674,
+        12.88674,
+        12.8867407
+      ],
+      "mesh": 3
+    },
+    {
+      "name": "Sphere",
+      "translation": [
+        0.0254343618,
+        0.358259648,
+        -0.08112442
+      ],
+      "rotation": [
+        0.709171236,
+        0.0442189239,
+        -0.0245921072,
+        0.703218341
+      ],
+      "scale": [
+        7.47748041,
+        7.47748137,
+        7.477481
+      ],
+      "mesh": 4
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "children": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "entities": [
+    {
+      "name": "Main Camera",
+      "translation": [
+        0.0,
+        1.0,
+        10.0
+      ],
+      "components": [
+        {
+          "type": "Camera",
+          "properties": {
+            "projection": "perspective",
+            "fov": 60.0,
+            "orthoHeight": 5.0,
+            "near": 0.3,
+            "far": 1000.0,
+            "priority": -1.0,
+            "color": [
+              0.192156866,
+              0.3019608,
+              0.4745098,
+              0.0
+            ],
+            "clearFlags": 11,
+            "rect": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Directional Light",
+      "translation": [
+        0.0,
+        3.0,
+        0.0
+      ],
+      "rotation": [
+        -0.408217877,
+        0.234569684,
+        0.109381631,
+        0.8754261
+      ],
+      "components": [
+        {
+          "type": "Light",
+          "properties": {
+            "color": [
+              1.0,
+              0.956862748,
+              0.8392157
+            ],
+            "intensity": 1.0,
+            "shadowType": "soft",
+            "shadowDarkness": 1.0,
+            "shadowBias": 0.05
+          }
+        }
+      ]
+    },
+    {
+      "name": "prefab-foo",
+      "prefab": "6f35ca016ef9541eda958df9355fc946",
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "modifications": [
+        {
+          "property": "name",
+          "entity": 0,
+          "value": "prefab-foo"
+        }
+      ]
+    },
+    {
+      "name": "perfab-complex",
+      "prefab": "5a72fb9e0d7b242aab3ad4ff9751e759",
+      "translation": [
+        3.17,
+        0.0,
+        0.0
+      ],
+      "modifications": [
+        {
+          "property": "name",
+          "entity": 0,
+          "value": "perfab-complex"
+        },
+        {
+          "property": "name",
+          "entity": 1,
+          "value": "foo"
+        },
+        {
+          "property": "name",
+          "entity": 2,
+          "value": "bar"
+        },
+        {
+          "property": "name",
+          "entity": 4,
+          "value": "foobar"
+        }
+      ]
+    },
+    {
+      "name": "prefab-bar",
+      "prefab": "6f35ca016ef9541eda958df9355fc946",
+      "translation": [
+        -1.21,
+        0.0,
+        1.19
+      ],
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "modifications": [
+        {
+          "property": "name",
+          "entity": 0,
+          "value": "prefab-bar"
+        }
+      ]
+    }
+  ],
+  "preloads": [
+    "bf8102a39070c40539457dd742b7d7ac",
+    "2751bfe6837879649bc54e1823cdf856",
+    "c265b423c34dc40918d9cb3b72b86a10",
+    "8d155f6951d1e46dc9fd17ae06aa9508",
+    "6f35ca016ef9541eda958df9355fc946",
+    "5a72fb9e0d7b242aab3ad4ff9751e759"
+  ],
+  "skyboxes": []
+}

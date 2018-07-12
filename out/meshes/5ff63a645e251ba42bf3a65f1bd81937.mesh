@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "generator": "u3d-exporter",
+    "version": "1.0.0"
+  },
+  "accessors": [
+    {
+      "name": "position@d06DoorFrameDoubleFull",
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 46,
+      "type": "VEC3",
+      "min": [
+        -0.5,
+        0.0,
+        -0.5
+      ],
+      "max": [
+        0.5,
+        1.0,
+        0.5
+      ]
+    },
+    {
+      "name": "normal@d06DoorFrameDoubleFull",
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 46,
+      "type": "VEC3",
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "tangent@d06DoorFrameDoubleFull",
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 46,
+      "type": "VEC4",
+      "min": [
+        -1.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        0.9362451,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "uv0@d06DoorFrameDoubleFull",
+      "bufferView": 0,
+      "byteOffset": 40,
+      "componentType": 5126,
+      "count": 46,
+      "type": "VEC2"
+    },
+    {
+      "name": "uv1@d06DoorFrameDoubleFull",
+      "bufferView": 0,
+      "byteOffset": 48,
+      "componentType": 5126,
+      "count": 46,
+      "type": "VEC2"
+    },
+    {
+      "name": "indices0@d06DoorFrameDoubleFull",
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 96,
+      "type": "SCALAR"
+    }
+  ],
+  "buffers": [
+    {
+      "name": "d06DoorFrameDoubleFull",
+      "uri": "5ff63a645e251ba42bf3a65f1bd81937.bin",
+      "byteLength": 2768
+    }
+  ],
+  "bufferViews": [
+    {
+      "name": "vb@d06DoorFrameDoubleFull",
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 2576,
+      "byteStride": 56,
+      "target": 34962
+    },
+    {
+      "name": "ib0@d06DoorFrameDoubleFull",
+      "buffer": 0,
+      "byteOffset": 2576,
+      "byteLength": 192,
+      "target": 34963
+    }
+  ],
+  "meshes": [
+    {
+      "name": "d06DoorFrameDoubleFull",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5
+        }
+      ]
+    }
+  ]
+}

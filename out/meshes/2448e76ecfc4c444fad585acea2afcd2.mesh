@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "generator": "u3d-exporter",
+    "version": "1.0.0"
+  },
+  "accessors": [
+    {
+      "name": "position@a07StepsLow",
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 90,
+      "type": "VEC3",
+      "min": [
+        -0.5,
+        0.0,
+        -0.5
+      ],
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "name": "normal@a07StepsLow",
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 90,
+      "type": "VEC3",
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "tangent@a07StepsLow",
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 90,
+      "type": "VEC4",
+      "min": [
+        -1.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "uv0@a07StepsLow",
+      "bufferView": 0,
+      "byteOffset": 40,
+      "componentType": 5126,
+      "count": 90,
+      "type": "VEC2"
+    },
+    {
+      "name": "uv1@a07StepsLow",
+      "bufferView": 0,
+      "byteOffset": 48,
+      "componentType": 5126,
+      "count": 90,
+      "type": "VEC2"
+    },
+    {
+      "name": "indices0@a07StepsLow",
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 216,
+      "type": "SCALAR"
+    }
+  ],
+  "buffers": [
+    {
+      "name": "a07StepsLow",
+      "uri": "2448e76ecfc4c444fad585acea2afcd2.bin",
+      "byteLength": 5472
+    }
+  ],
+  "bufferViews": [
+    {
+      "name": "vb@a07StepsLow",
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 5040,
+      "byteStride": 56,
+      "target": 34962
+    },
+    {
+      "name": "ib0@a07StepsLow",
+      "buffer": 0,
+      "byteOffset": 5040,
+      "byteLength": 432,
+      "target": 34963
+    }
+  ],
+  "meshes": [
+    {
+      "name": "a07StepsLow",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "sprites": {
+    "round-rect-8px": {
+      "texture": "1404bccc6df90114eb3a195786762bfd",
+      "rotated": false,
+      "x": 0.0,
+      "y": 0.0,
+      "width": 139.0,
+      "height": 50.0,
+      "left": 25.0,
+      "right": 25.0,
+      "bottom": 25.0,
+      "top": 25.0
+    }
+  },
+  "type": "sprite",
+  "anisotropy": 16,
+  "minFilter": "linear",
+  "magFilter": "linear",
+  "mipFilter": "nearest",
+  "wrapS": "clamp",
+  "wrapT": "clamp"
+}

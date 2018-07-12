@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "generator": "u3d-exporter",
+    "version": "1.0.0"
+  },
+  "accessors": [
+    {
+      "name": "position@d09DoorFrameDoubleInvCornerFullStack",
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 32,
+      "type": "VEC3",
+      "min": [
+        -0.500000954,
+        0.0,
+        -0.374995947
+      ],
+      "max": [
+        -0.375000954,
+        1.0,
+        0.5
+      ]
+    },
+    {
+      "name": "normal@d09DoorFrameDoubleInvCornerFullStack",
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 32,
+      "type": "VEC3",
+      "min": [
+        -1.0,
+        0.0,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "tangent@d09DoorFrameDoubleInvCornerFullStack",
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 32,
+      "type": "VEC4",
+      "min": [
+        -1.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "max": [
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "uv0@d09DoorFrameDoubleInvCornerFullStack",
+      "bufferView": 0,
+      "byteOffset": 40,
+      "componentType": 5126,
+      "count": 32,
+      "type": "VEC2"
+    },
+    {
+      "name": "uv1@d09DoorFrameDoubleInvCornerFullStack",
+      "bufferView": 0,
+      "byteOffset": 48,
+      "componentType": 5126,
+      "count": 32,
+      "type": "VEC2"
+    },
+    {
+      "name": "indices0@d09DoorFrameDoubleInvCornerFullStack",
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 54,
+      "type": "SCALAR"
+    }
+  ],
+  "buffers": [
+    {
+      "name": "d09DoorFrameDoubleInvCornerFullStack",
+      "uri": "a0fe24f06ec3b97468b801443de0d6b1.bin",
+      "byteLength": 1900
+    }
+  ],
+  "bufferViews": [
+    {
+      "name": "vb@d09DoorFrameDoubleInvCornerFullStack",
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 1792,
+      "byteStride": 56,
+      "target": 34962
+    },
+    {
+      "name": "ib0@d09DoorFrameDoubleInvCornerFullStack",
+      "buffer": 0,
+      "byteOffset": 1792,
+      "byteLength": 108,
+      "target": 34963
+    }
+  ],
+  "meshes": [
+    {
+      "name": "d09DoorFrameDoubleInvCornerFullStack",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5
+        }
+      ]
+    }
+  ]
+}

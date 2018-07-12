@@ -1,0 +1,25 @@
+{
+  "entities": [
+    {
+      "name": "a00Block",
+      "components": [
+        {
+          "type": "Model",
+          "properties": {
+            "mesh": "837f1b8ff169dc840b18862d7fe9350e",
+            "materials": [
+              "677274093d9785c47b4e36a9dc0e06b6"
+            ],
+            "shadowCastingMode": "on",
+            "receiveShadows": true
+          }
+        }
+      ]
+    }
+  ],
+  "preloads": [
+    "677274093d9785c47b4e36a9dc0e06b6",
+    "5a6b6c2feaed1d74d857879e8881c4f3",
+    "837f1b8ff169dc840b18862d7fe9350e"
+  ]
+}
