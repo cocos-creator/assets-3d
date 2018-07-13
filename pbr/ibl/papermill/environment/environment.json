@@ -1,6 +1,6 @@
 {
   "type": "cube",
-  "ext": "jpg",
+  "ext": "png",
   "anisotropy": 1,
   "minFilter": "linear",
   "magFilter": "linear",
